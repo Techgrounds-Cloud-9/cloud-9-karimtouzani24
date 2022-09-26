@@ -1,4 +1,4 @@
-# [Subject]
+# Subject
 push your code to your repository
 
 ## Key terminology
