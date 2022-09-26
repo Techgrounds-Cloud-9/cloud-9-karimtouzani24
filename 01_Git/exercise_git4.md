@@ -1,4 +1,4 @@
-# [Subject]
+# Subject
 How to Pull/Clone a repository of your teammate.
 
 ## Key terminology
