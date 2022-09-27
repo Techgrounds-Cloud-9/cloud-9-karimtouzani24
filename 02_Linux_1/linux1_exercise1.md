@@ -1,7 +1,5 @@
-# Subject
-Make an SSH-connection to your machine. SSH requires the key file to have specific permissions, so you might need to change those.  
-
-When the connection is successful, type whoami in the terminal. This command should show your username.  
+# Subject  
+create a remote connection to your machine.  
 
 ## Key terminology
 pem file:  
@@ -10,7 +8,8 @@ SSH:
 Putty:
 
 ## Exercise  
-create a remote connection to your machine.
+Make an SSH-connection to your machine. SSH requires the key file to have specific permissions, so you might need to change those.  
+When the connection is successful, type whoami in the terminal. This command should show your username.
 
 ### Sources
 https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=powershell  
