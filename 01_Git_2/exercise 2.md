@@ -1,5 +1,6 @@
 #Markdown:  
 Is an easy-to-read, easy-to-write syntax for formatting plain text.  
+link: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
 
 #WYSIWYG vs WYSIWYM:  
 Markdown is a language based on the paradigm called **"What you see is what you mean"** WYSIWYM.  
