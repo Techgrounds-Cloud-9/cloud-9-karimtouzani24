@@ -1,5 +1,5 @@
 # Subject
-linux files and folders  
+Using Linux files and folders  
 
 ## Key terminology
 pwd:  
