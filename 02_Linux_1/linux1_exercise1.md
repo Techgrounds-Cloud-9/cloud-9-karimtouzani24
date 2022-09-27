@@ -25,10 +25,10 @@ https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html  
 
 ### Overcome challenges  
-I am using powershell, I need to run as administrator. Then i have to check if Openssh is installed on my windows laptop.  
-The server is not installed so i had to install it.  
+I am using powershell, I need to run this as an administrator. I have to check if Openssh is installed on my windows laptop.  
+The server is not installed so I installed it.  
 I configured a firewall rule to open the ssh-port.
-With putty i wanted to connect to the linux container. But not succeeded, because of permission denied (publickey).  
+With putty I wanted to connect to the linux container. But did not succeed, because of permission denied (publickey).  
 With Puttygen I had to convert the PEM file to PPK file (key). Now I succeeded to connect with Putty.
 
 
