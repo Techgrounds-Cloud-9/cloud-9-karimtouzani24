@@ -2,12 +2,25 @@
 linux files and folders  
 
 ## Key terminology
-pwd
-cd ..
-ls -al
-mkdir
-cat > filename
-difference between relative and absolute paths
+pwd:  
+Shows the current directory  
+
+cd ..  
+To move to the parent directory of the current directory.  
+
+ls -al:  
+ls command to list the directory contents and the -a option is to not ignore the entries starting with a (.)  
+and the -l option to use a long listing format.  
+
+mkdir:  
+Command to make a directory.  
+
+cat > filename:  
+Command to create a file.  
+
+difference between relative and absolute paths:  
+A relative path is from your current location (cd ..), and absolute is from the root (/)  
+
 
 ## Exercise  
 1) find out the current working directory.    
@@ -28,5 +41,11 @@ But the teachter said it is not needed to solve this issue as it is not part of 
 https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/linux1_exercise2a.png   
 Used pwd command to find the current working directory and the ls -al command to find all the directories.  
 
+https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/linux1_exercise2b.png  
+Used the mkdir command to make a directory and cat > to add a text file, with random text.  
+
+https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/linux1_exercise2c.png  
+Used cd .. to navigate form the current directory (relative path), and used an absolute path from the root directory  
+using the slash (/)  
 
 
