@@ -25,6 +25,8 @@ It was no problem for me, because I have experience using linux commands, the li
 But the teachter said it is not needed to solve this issue as it is not part of the assignment to succeed.
 
 ### Results  
-https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/linux1_exercise1.png  
+https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/linux1_exercise2a.png   
 Used pwd command to find the current working directory and the ls -al command to find all the directories.  
+
+
 
