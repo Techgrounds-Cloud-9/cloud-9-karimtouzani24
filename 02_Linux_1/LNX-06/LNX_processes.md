@@ -47,4 +47,12 @@ To find the PID of the telnet daemon I used the ps aux command. telnetd is shown
 
 To stop the telnetd process I used the sudo kill 12618 command. 
 
-### Results
+### Results  
+![image of service masked](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/LNX_6/LNX_06a.png)  
+
+![image of masked service solved](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/LNX_6/LNX_06b.png)  
+
+![image of telnet daemon started](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/LNX_6/LNX_06c.png)  
+
+![image of pid, memory and service stopped](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/LNX_6/LNX_06d.png)  
+
