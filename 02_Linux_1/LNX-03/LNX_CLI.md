@@ -51,4 +51,4 @@ I added a pipe with a grep command to only show the line with the word techgroun
 3) I used the cat command to view the file, I added a pipe and grep command to choose for specific word. Then I added a pipe and tee command to save the result into a new file.
 
 ### Results  
-![image of results](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/LNX_03_CLI.png)  
+![image of results](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/LNX_03_CLI.png) 
