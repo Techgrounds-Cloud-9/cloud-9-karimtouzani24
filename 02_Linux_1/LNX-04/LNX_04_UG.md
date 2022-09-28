@@ -34,7 +34,13 @@ https://phoenixnap.com/kb/how-to-create-sudo-user-on-ubuntu
 
 
 
-### Overcome challenges
+### Overcome challenges  
+It was not difficult to do. Just using the right commands, to be sure I checked to links above to use the right commands.  
+To add a user I used the sudo adduser command, then I entered a password.  
+I added the user to the admin group and sudo group, to use sudo, with the sudo usermod -a -G group username command.  
+To locate if the user is added, I used the cat /etc/passwd with grep command.  
+To view if the user is added to the groups, I used the cat /etc/group with grep command.  
+To view the password data of the new user, I had to use sudo cat /etc/shadow with grep command.
 
 
 ### Results  
