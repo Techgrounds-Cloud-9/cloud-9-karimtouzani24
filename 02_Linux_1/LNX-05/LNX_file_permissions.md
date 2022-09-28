@@ -53,12 +53,9 @@ The file was empty so I added text first with echo >> command and then to show I
 I can read the file because I am the owner.  
 I changed the owner of the file with the chown command, first I did not succeed  because I did not use sudo. Then with sudo it worked.  
 Because lina is the owner now i cant read the file, I showed this with the cat command, but with the sudo command I can.  
-To change the group of the file I used the cat /etc/group folder to see witch folder I can use. Then I used the chown :group file command to change the group. It worked, to check this I used the ls -l command. 
+To change the group of the file I used the cat /etc/group folder to see witch folder I can use. Then I used the chown :group file command to change the group. It worked, to check this I used the ls -l command.  
 
+### Results 
+![image of LNX_05 part 1](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/LNX_05_FP.png) 
 
-
-
-
-
-
-### Results
+![image of LNX_05 part 2](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/LNX_05_FP2.png)  
