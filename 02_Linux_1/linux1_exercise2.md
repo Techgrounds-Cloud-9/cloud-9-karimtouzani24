@@ -38,11 +38,11 @@ It was no problem for me, because I have experience using linux commands, the li
 But the teachter said it is not needed to solve this issue as it is not part of the assignment to succeed.
 
 ### Results  
-![image pwd](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/linux1_exercise2a.png   
-Used pwd command to find the current working directory and the ls -al command to find all the directories.)  
+![image pwd](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/linux1_exercise2a.png)   
+Used pwd command to find the current working directory and the ls -al command to find all the directories.  
 
-![image mkdir](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/linux1_exercise2b.png  
-Used the mkdir command to make a directory and cat > to add a text file, with random text.)  
+![image mkdir](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/linux1_exercise2b.png)  
+Used the mkdir command to make a directory and cat > to add a text file, with random text.  
 
 ![image navigate](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/linux1_exercise2c.png)  
 Used cd .. to navigate form the current directory (relative path), and used an absolute path from the root directory  
