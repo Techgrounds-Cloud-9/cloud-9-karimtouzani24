@@ -11,7 +11,7 @@ This command gives you temporary root permissions, if you are allowed to do this
 Users, passwords and groups are stored in different files in linux.  
 
 users in the /etc/passwd file  
-passwords in the /etc/shwadow file
+passwords in the /etc/shwadow file  
 groups in the /etc/group file
 
 ## Exercise  
