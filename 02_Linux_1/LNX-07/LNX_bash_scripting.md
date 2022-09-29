@@ -60,7 +60,10 @@ https://www.andrewcbancroft.com/blog/musings/make-bash-script-executable/
 https://www.baeldung.com/linux/scripting-yes-during-install  
 
 https://www.cloudsigma.com/installing-the-apache-server-on-ubuntu-18-04-a-how-to-guide/  
-https://linuxize.com/post/start-stop-restart-apache/
+https://linuxize.com/post/start-stop-restart-apache/  
+
+2)  
+
 
 
 
