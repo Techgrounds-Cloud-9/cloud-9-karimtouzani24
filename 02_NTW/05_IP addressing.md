@@ -68,7 +68,8 @@ https://www.howtogeek.com/117371/how-to-find-your-computers-private-public-ip-ad
 The easiest way to find your public IP address is by asking a website, since that website sees your public IP address and can tell it to you.  
 I userd the site ip4.me. It’s quick, ad-free, and will show your IPv4 address. You can Also acces the routers administration page.  
 ALso on your mobile you can seach a website for your public IP. The laptop and mobile will show the same public IP address, with NAT all these devices (with private IP address) will acces the internet.  
-The devices have different private IP addresses, so they can communicate with each other on the same network. 
+The devices have different private IP addresses, so they can communicate with each other on the same network.  
+I manually changed the private ip address on my mobile to the same Ip address of my laptop to show this will not work. The mobile has no connection because devices can't have the same ip addresses. See results. 
 
 
 
@@ -90,4 +91,7 @@ Using ipconfig to find your private ip on your laptop.
 
 
 ![mobile private ip address using the settings](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/main/00_includes/NTW/NTW_5/private%20ip%20mobile.png)  
-Using the settings in your mobile to find your private ip. 
+Using the settings in your mobile to find your private ip.  
+
+![same private ip for mobile and laptop](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_5/same%20ip%20mobile%20and%20laptop.png)  
+Changing the private IP address of the mobile to the same IP address of the laptop, no connection possible. 
