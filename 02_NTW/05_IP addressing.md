@@ -39,7 +39,17 @@ IPv6 addresses
 - but harder to configure, difficult to remember and not supported by all websites.  
 
 
-## Exercise
+## Exercise  
+Ontdek wat je publieke IP adres is van je laptop en mobiel op wifi.  
+Zijn de adressen hetzelfde of niet? Leg uit waarom.  
+Ontdek wat je privé IP adres is van je laptop en mobiel op wifi.  
+Zijn de adressen hetzelfde of niet? Leg uit waarom.  
+Verander het privé IP adres van je mobiel naar dat van je laptop. Wat gebeurt er dan?  
+Probeer het privé IP adres van je mobiel te veranderen naar een adres buiten je netwerk.  
+Wat gebeurt er dan?
+
+Tip: vergeet niet je instellingen weer terug te zetten wanneer je klaar bent met de opdracht.
+
 
 ### Sources
 https://www.geeksforgeeks.org/network-address-translation-nat/  
@@ -60,4 +70,13 @@ I userd the site ip4.me. It’s quick, ad-free, and will show your IPv4 address.
 
 
 
-### Results
+### Results  
+![public IP shown by website](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_5/publicIPwebsite.png)  
+Using a website to find your public IP address.  
+
+![public IP shown by router page](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_5/publicIProuter.png)  
+Using the routers administration page to show your public IP.  
+
+![public IP shown on mobile](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_5/ipmobiel.png)   
+Using your mobile to show your public ip, using a website.  
+
