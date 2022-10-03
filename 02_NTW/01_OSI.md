@@ -15,7 +15,9 @@ https://www.geeksforgeeks.org/layers-of-osi-model/
 
 https://www.imperva.com/learn/application-security/osi-model/  
 
-https://www.practicalnetworking.net/series/packet-traveling/osi-model/
+https://www.practicalnetworking.net/series/packet-traveling/osi-model/  
+
+https://osi-model.com/physical-layer/
 
 
 
