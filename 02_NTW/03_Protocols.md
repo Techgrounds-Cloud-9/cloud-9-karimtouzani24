@@ -60,4 +60,6 @@ You can choose TCP or UDP.
 like for transport layer TCP is used.  
 In the network layer, IPv4 is used and the source and destination are visible.  
 Ethernet II shows the data link layer, the MAC addresses of the source and destination. 
-### Results
+### Results  
+![image of wireshark](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_3/wiresharkNTW.png)  
+This image contains a specific search for tcp 443. 
