@@ -30,7 +30,9 @@ https://www.comptia.org/content/guides/what-is-a-network-protocol#:~:text=The%20
 
 https://www.internetx.com/en/news-detailview/who-creates-the-standards-and-protocols-for-the-internet/  
 
-https://www.quora.com/How-do-you-write-your-own-protocol-that-sits-on-top-of-TCP-IP
+https://www.quora.com/How-do-you-write-your-own-protocol-that-sits-on-top-of-TCP-IP  
+
+https://www.alphr.com/wireshark-filter-port/
 
 ### Overcome challenges  
 1)the layers and it's protocols:  
@@ -52,5 +54,10 @@ Technical experts, academics, and policy-makers have come together under the roo
 - International Telecommunications Union (ITU)  
 
 For you to create your own protocol it has to be on top of the transport layer. So the data reaches the application layer.  
-You can choose TCP or UDP. 
+You can choose TCP or UDP.  
+
+3) I have installed Wireshark on my machine. To show it is working I started capturing packages, then I opened a webbrowser. To find what I did on the network, I filtered to see only tcp port 443. In the results it shows the information about this activity and information about the data link, internet and transport layer.   
+like for transport layer TCP is used.  
+In the network layer, IPv4 is used and the source and destination are visible.  
+Ethernet II shows the data link layer, the MAC addresses of the source and destination. 
 ### Results
