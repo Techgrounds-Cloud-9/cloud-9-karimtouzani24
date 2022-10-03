@@ -70,7 +70,8 @@ I userd the site ip4.me. It’s quick, ad-free, and will show your IPv4 address.
 ALso on your mobile you can seach a website for your public IP. The laptop and mobile will show the same public IP address, with NAT all these devices (with private IP address) will acces the internet.  
 The devices have different private IP addresses, so they can communicate with each other on the same network.  
 I manually changed the private ip address on my mobile to the same Ip address of my laptop to show this will not work. The mobile has no connection because devices can't have the same ip addresses. See results. 
-
+When manually changing the private ip address of the mobile to an address outside the network will also disconnect, see results,  
+because the IP addresses should be on the same network to be able to communicate with each other. 
 
 
 
@@ -94,4 +95,8 @@ Using ipconfig to find your private ip on your laptop.
 Using the settings in your mobile to find your private ip.  
 
 ![same private ip for mobile and laptop](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_5/same%20ip%20mobile%20and%20laptop.png)  
-Changing the private IP address of the mobile to the same IP address of the laptop, no connection possible. 
+Changing the private IP address of the mobile to the same IP address of the laptop, no connection possible.   
+
+
+![private ip addresses not on same network](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_5/mobile%20extern%20private%20ip.png)  
+No connection possible if the private IP addresses are not on the same network. 
