@@ -35,7 +35,7 @@ https://www.quora.com/How-do-you-write-your-own-protocol-that-sits-on-top-of-TCP
 https://www.alphr.com/wireshark-filter-port/
 
 ### Overcome challenges  
-1)the layers and it's protocols:  
+1) the layers and it's protocols:  
 - physical layer: Ethernet physical layer (10Base-T), USB, GSM, Bluetooth. 
 - data link layer: ARP, NDP, ethernet.
 - network layer: IPv4, IPv6, ICMP, IGMP.
