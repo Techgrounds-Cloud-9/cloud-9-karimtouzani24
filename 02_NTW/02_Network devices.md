@@ -84,8 +84,16 @@ from here i had to give the username and password to be able to view the list. I
 For every device on the list, you can find information about the name, MAC address,  
 IP address, speed and connected to.  
 
-3) The router is the DHCP server in my network, the ipconfig /all command shows it has the same IP address.  
+3) The router is the DHCP server in my network, the ipconfig /all command shows DHCP is enabled and it has the same IP address as the router.  
 It also shows when the lease of the assignment is obtained and when it expires.  
 
 
-### Results
+### Results  
+![ip address router](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_2/ipconfig.png)  
+The IP address of the router.  
+
+
+![The connected devices](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_2/connected%20devices%20router.png)  
+
+
+![location DHCP and its configurations](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_2/ipconfig%20all%20dhcp.png)  
