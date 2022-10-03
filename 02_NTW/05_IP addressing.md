@@ -83,3 +83,6 @@ Using the routers administration page to show your public IP.
 ![public IP shown on mobile](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_5/ipmobiel.png)   
 Using your mobile to show your public ip, using a website.  
 
+![laptop private ip address using ipconfig](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_5/ipconfig%20ntw.png)  
+
+![mobile private ip address using the settings]()
