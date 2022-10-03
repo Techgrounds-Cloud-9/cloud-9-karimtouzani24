@@ -67,6 +67,9 @@ https://www.howtogeek.com/117371/how-to-find-your-computers-private-public-ip-ad
 ### Overcome challenges
 The easiest way to find your public IP address is by asking a website, since that website sees your public IP address and can tell it to you.  
 I userd the site ip4.me. It’s quick, ad-free, and will show your IPv4 address. You can Also acces the routers administration page.  
+ALso on your mobile you can seach a website for your public IP. The laptop and mobile will show the same public IP address, with NAT all these devices (with private IP address) will acces the internet.  
+
+
 
 
 
