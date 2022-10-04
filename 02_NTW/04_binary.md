@@ -27,21 +27,25 @@ Binary to Decimal
 Decimal to Hex  
 15 = F 
 37 = 25
-246 =  
-125 =  
-209 =  
+246 = F6
+125 = 7D
+209 = D1
 
 Hex to Decimal  
-88 =  
-e0 =  
-cb =  
-2f =  
-d8 =  
+88 = 136
+e0 = 224
+cb = 203 
+2f = 47
+d8 = 216
 
 ### Sources
+https://www.youtube.com/watch?v=4um7-QbpAQ8  
 
+https://www.youtube.com/watch?v=0J6BceurLbg  
 
-### Overcome challenges
+https://www.youtube.com/watch?v=CnvFy75ks_A  
 
+https://www.youtube.com/watch?v=1TxAm9931TE&list=PLCxo_aiLWIVGbkYgVwRkqphGjXlrE48ZB&index=2  
 
-### Results
+https://www.youtube.com/watch?v=Aw6wd_WE-n8&list=PLCxo_aiLWIVGbkYgVwRkqphGjXlrE48ZB&index=3
+
