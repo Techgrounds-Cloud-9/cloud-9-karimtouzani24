@@ -33,7 +33,12 @@ https://www.networkworld.com/article/3296740/what-is-nmap-why-you-need-this-netw
 I have installed nmap on the linux machine. To find my IP address I used the command hostname -i.  
 There are more options to find the IP address, like the command ip a or ifconfig.  
 To scan the network of the linux machine I used the command sudo nmap -sS and the IP address.  
-It showed the open ports, which are ssh 22/tcp, telnet 23/tcp and http 80/tcp. 
+It showed the open ports, which are ssh 22/tcp, telnet 23/tcp and http 80/tcp.  
+
+The next exercise shows what happens in Wireshark when I open a webbrowser.  
+I used a filter to show all 443 packets, while I opened the webbrowser. The result is a lot of packets are send.  
+To show the difference, I opened the same webbrowser but used another filter (ssh, 22). Now no packets are send.  
+Wireshark shows all network traffic or you can filter it to look specific.
 
 ### Results  
 ![image of nmap in action](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/nmap_exercise.png)  
