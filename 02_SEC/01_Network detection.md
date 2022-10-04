@@ -38,10 +38,16 @@ To scan the network of the linux machine I used the command sudo nmap -sS and th
 It showed the open ports, which are ssh 22/tcp, telnet 23/tcp and http 80/tcp.  
 
 The next exercise shows what happens in Wireshark when I open a webbrowser.  
-I used a filter to show all 443 packets, while I opened the webbrowser. The result is a lot of packets are send.  
-To show the difference, I opened the same webbrowser but used another filter (ssh, 22). Now no packets are send.  
+I used a filter to show all port 443 packets, while I opened the webbrowser. The result is a lot of packets are send.  
+To show the difference, I opened the same webbrowser but used another filter (ssh, port 22). Now no packets are send.  
 Wireshark shows all network traffic or you can filter it to look specific.
 
 ### Results  
 ![image of nmap in action](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/nmap_exercise.png)  
-Nmap 
+Nmap  
+
+![image of wireshark filter 443](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/wireshark_443filter.png)  
+Wireshark with port 443 filter.  
+
+![image of whireshark filter 22](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/wireshark_22filter.png)  
+Wireshark with port 22 filter.
