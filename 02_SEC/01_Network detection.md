@@ -44,7 +44,7 @@ Wireshark shows all network traffic or you can filter it to look specific.
 
 ### Results  
 ![image of nmap in action](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/nmap_exercise.png)  
-Nmap  
+Nmap scans the open ports.
 
 ![image of wireshark filter 443](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/wireshark_443filter.png)  
 Wireshark with port 443 filter.  
