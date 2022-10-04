@@ -34,5 +34,5 @@ Image of exercise 1
 
 
 
-![image exercise 2](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_6extra/2subnetting.png)
+![image exercise 2](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_6extra/2subnetting.png)  
 Image of exercise 2
