@@ -1,9 +1,9 @@
 # Subject
-
+Network Detection, with nmap and wireshark.
 
 ## Key terminology
 Nmap:  
-short for Network Mapper, is a free and open source tool used for vulnerability checking, port scanning and, of course, network mapping  
+Short for Network Mapper, is a free and open source tool used for vulnerability checking, port scanning and, of course, network mapping  
 
 Wireshark:  
 Wireshark is a free open source tool that analyzes network traffic in real-time for Windows, Mac, Unix, and Linux systems.  
