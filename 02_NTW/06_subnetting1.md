@@ -94,4 +94,4 @@ A /29 wil provide 8-2 = 6 hosts.
 To calculate the hosts you can use https://www.subnet-calculator.com/subnet.php?net_class=C or do this manually.
 
 ### Results  
-![subnetting image]()
+![subnetting image](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_6/1subnetting.png)  
