@@ -67,7 +67,15 @@ https://community.fs.com/blog/layer-2-switch-vs-layer-3-switch-which-one-do-you-
 
 https://www.comptia.org/content/guides/what-is-network-address-translation#:~:text=NAT%20stands%20for%20network%20address,as%20do%20most%20home%20routers.  
 
-https://www.geeksforgeeks.org/difference-between-private-and-public-ip-addresses/
+https://www.geeksforgeeks.org/difference-between-private-and-public-ip-addresses/  
+
+https://chrisguitarguy.com/2017/09/28/public-private-subnet-differences-aws-vpc/  
+
+https://medium.com/awesome-cloud/aws-vpc-difference-between-internet-gateway-and-nat-gateway-c9177e710af6#:~:text=Internet%20Gateway%20(IGW)%20allows%20instances,IPs%20to%20access%20the%20internet.  
+
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html  
+
+
 
 ### Overcome challenges
 
@@ -95,4 +103,4 @@ To calculate the hosts you can use https://www.subnet-calculator.com/subnet.php?
 
 ### Results  
 ![subnetting image](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_6/06_subnetting.png)
-  
+
