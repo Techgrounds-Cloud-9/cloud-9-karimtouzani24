@@ -32,9 +32,9 @@ Decimal to Hex
 209 = D1  
 
 Hex to Decimal  
-88 = 136
+88 = 136  
 e0 = 224  
-cb = 203 
+cb = 203  
 2f = 47  
 d8 = 216
 
