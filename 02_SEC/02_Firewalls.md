@@ -82,10 +82,23 @@ I have installed apache2. To check the default page, I have wo options. The open
 Or to see the file in a webbrowser by entering the host IP address and webport, see results.  
 The firewall is disabled. Before enabling the firewall it's important the add rules to firewall to allow ssh traffic. This prevents you from getting locked out.  
 To add ssh, I used the command sudo ufw allow ssh and also for the specific port sudo ufw allow 52209/tcp.  
-To check what is allowed and what is denied I used the command sudo ufw status. This showed that the ssh trafic and webtrafic is allowd.  
+To check what is allowed and what is denied I used the command sudo ufw status. This showed that the ssh trafic and webtrafic is allowed.  
 To deny webtraffic I used the commands sudo ufw deny http, and also the same command is used to deny Apache Full and https, to deny all webtraffic. SSH is still allowed.  
 To check if the firewall works I opened the webbrowser to reach the webserver as in the first part of this exercise. Now it was not possible because of the firewall is doing its work.  
 
+### Results  
+![index.html](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/index1.png)
+index.html is the default webpage.  
 
 
-### Results
+![webbrowser default webpage](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/apache%20works.png)  
+The webbrowser shows the default webpage.  
+
+![allow ssh and enable ufw](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/ssh_allow_ufw_enable.png)  
+The ssh port is allowed en the ufw enabled.  
+
+![webtraffic deny and ufw status](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/denywebtraffic.png)  
+All webtraffic deny, and to check what is allowed and denied.  
+
+![the webbrowser can't reach the webserver](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/firewall%20works.png)  
+The firewall works, the webbrowser can't reach the webserver.  
