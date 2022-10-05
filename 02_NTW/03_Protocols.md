@@ -58,9 +58,8 @@ Technical experts, academics, and policy-makers have come together under the roo
 For you to create your own protocol it has to be on top of the transport layer. So the data reaches the application layer.  
 You can choose TCP or UDP.  
 
-3) I have installed Wireshark on my machine. To show it is working I started capturing packages, then I opened a webbrowser. To find what I did on the network, I filtered to see only tcp port 443. In the results it shows the information about this activity and information about the data link, internet and transport layer.   
-like for transport layer TCP is used.  
-In the network layer, IPv4 is used and the source and destination are visible.  
+3) I have installed Wireshark on my machine. To show it is working I started capturing packages, then I opened a webbrowser. To find what I did on the network, I filtered to see only tcp port 443. In the results it shows the information about this activity and information about the data link, internet and transport layer. For example the transport layer uses the TCP protocol.  
+In the network layer, IPv4 is used and the source and destination are shown.  
 Ethernet II shows the data link layer, the MAC addresses of the source and destination. 
 ### Results  
 ![image of wireshark](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_3/wiresharkNTW.png)  
