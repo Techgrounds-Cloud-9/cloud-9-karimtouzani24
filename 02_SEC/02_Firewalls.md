@@ -67,9 +67,25 @@ https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-uf
 
 https://www.hostinger.com/tutorials/iptables-tutorial  
 
-https://support.kaspersky.com/KICSforNetworks/2.9/en-US/151470.htm
+https://support.kaspersky.com/KICSforNetworks/2.9/en-US/151470.htm  
+
+https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04  
+
+https://www.tecmint.com/setup-ufw-firewall-on-ubuntu-and-debian/  
+
+https://ubiq.co/tech-blog/how-to-change-default-index-page-in-apache/  
+
+https://www.howtogeek.com/devops/how-to-find-your-apache-configuration-folder/
 
 ### Overcome challenges
+I have installed apache2. To check the default page, I have wo options. The open the index.html file in /var/www/html with the cat command.  
+Or to see the file in a webbrowser by entering the host IP address and webport, see results.  
+The firewall is disabled. Before enabling the firewall it's important the add rules to firewall to allow ssh traffic. This prevents you from getting locked out.  
+To add ssh, I used the command sudo ufw allow ssh and also for the specific port sudo ufw allow 52209/tcp.  
+To check what is allowed and what is denied I used the command sudo ufw status. This showed that the ssh trafic and webtrafic is allowd.  
+To deny webtraffic I used the commands sudo ufw deny http, and also the same command is used to deny Apache Full and https, to deny all webtraffic. SSH is still allowed.  
+To check if the firewall works I opened the webbrowser to reach the webserver as in the first part of this exercise. Now it was not possible because of the firewall is doing its work.  
+
 
 
 ### Results
