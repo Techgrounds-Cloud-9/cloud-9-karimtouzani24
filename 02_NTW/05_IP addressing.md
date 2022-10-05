@@ -40,11 +40,14 @@ IPv6 addresses
 
 
 ## Exercise  
-Ontdek wat je publieke IP adres is van je laptop en mobiel op wifi.  
+- Ontdek wat je publieke IP adres is van je laptop en mobiel op wifi.  
 Zijn de adressen hetzelfde of niet? Leg uit waarom.  
-Ontdek wat je privé IP adres is van je laptop en mobiel op wifi.  
+
+- Ontdek wat je privé IP adres is van je laptop en mobiel op wifi.  
 Zijn de adressen hetzelfde of niet? Leg uit waarom.  
+
 Verander het privé IP adres van je mobiel naar dat van je laptop. Wat gebeurt er dan?  
+
 Probeer het privé IP adres van je mobiel te veranderen naar een adres buiten je netwerk.  
 Wat gebeurt er dan?
 
@@ -67,10 +70,12 @@ https://www.howtogeek.com/117371/how-to-find-your-computers-private-public-ip-ad
 ### Overcome challenges
 The easiest way to find your public IP address is by asking a website, since that website sees your public IP address and can tell it to you.  
 I userd the site ip4.me. It’s quick, ad-free, and will show your IPv4 address. You can Also acces the routers administration page.  
-ALso on your mobile you can seach a website for your public IP. The laptop and mobile will show the same public IP address, with NAT all these devices (with private IP address) will acces the internet.  
+ALso on your mobile you can search a website for your public IP. The laptop and mobile will show the same public IP address, with NAT all these devices (with private IP address) will acces the internet.  
+
 The devices have different private IP addresses, so they can communicate with each other on the same network.  
-I manually changed the private ip address on my mobile to the same Ip address of my laptop to show this will not work. The mobile has no connection because devices can't have the same ip addresses. See results. 
-When manually changing the private ip address of the mobile to an address outside the network will also disconnect, see results,  
+I manually changed the private ip address on my mobile to the same Ip address of my laptop to show this will not work. The mobile has no connection because devices can't have the same ip addresses. See results.  
+
+When manually changing the private ip address of the mobile to an address outside the network it will also disconnect, see results,  
 because the IP addresses should be on the same network to be able to communicate with each other. 
 
 
