@@ -75,10 +75,12 @@ https://medium.com/awesome-cloud/aws-vpc-difference-between-internet-gateway-and
 
 https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html  
 
-
+https://www.subnet-calculator.com/
 
 ### Overcome challenges
+I made 2 diagrams. I would like to show both, to show how i improved.
 
+I need 3 subnets:
 Private subnet B needs 30 available hosts + the ip address for the NAT gateway is 31. 
 A /27 has only 32-2 = 30 available.  
 So we need to use a /26, which has a max of 64-2 = 62 hosts. 
@@ -97,7 +99,12 @@ the subnet ID for the last subnet wil be the next IP address, 192.168.0.96
 For public subnet A, 5 hosts and an internet gateway need an IP address.  
 A /29 wil provide 8-2 = 6 hosts.  
 192.168.0.97/29 wil be the first host and 192.168.0.102/27 the last host. 
-192.168.0.97/29 wil be for the internet gateway and the other 5 are used for the hosts.
+192.168.0.97/29 wil be for the internet gateway and the other 5 are used for the hosts. 
+
+The diagram is shown in the results. This diagram uses the least amount of addresses but is not very elastic,  
+if the company grows it would be difficult to add hosts. 
+That is why I made a new diagram and used the same amount of hosts but here there is space to grow.  I could change /27 to /26 for more hosts.  
+See the results.
  
 To calculate the hosts you can use https://www.subnet-calculator.com/subnet.php?net_class=C or do this manually.
 
