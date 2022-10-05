@@ -97,3 +97,4 @@ The IP address of the router.
 
 
 ![location DHCP and its configurations](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/NTW/NTW_2/ipconfig%20all%20dhcp.png)  
+The ipconfig -all command shows information about the DHCP.  
