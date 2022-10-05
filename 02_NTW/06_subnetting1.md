@@ -38,6 +38,14 @@ Instead of choosing the same IP address every time, this NAT goes through a pool
 3. PAT
 PAT stands for port address translation. It’s a type of dynamic NAT, but it bands several local IP addresses to a singular public one. Organizations that want all their employees’ activity to use a singular IP address use a PAT, often under the supervision of a network administrator.
 
+private subnet:  
+
+public subnet:  
+
+Internet Gateway:  
+
+NAT Gateway:
+
 ## Exercise  
 Maak een netwerkarchitectuur die voldoet aan de volgende eisen:
 - 1 private subnet dat alleen van binnen het LAN bereikbaar is. Dit subnet moet minimaal 15 hosts kunnen plaatsen.  
