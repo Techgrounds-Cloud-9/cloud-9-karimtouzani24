@@ -2,10 +2,7 @@
 OSI Stack
 
 ## Key terminology
-the OSI model 
-
-the TCP/IP model
-
+The OSI model and the TCP/IP model, see results.
 
 ## Exercise  
 Study the OSI and TCP/IP models.
@@ -26,7 +23,8 @@ No challenges, information easy to find on the internet.
 
 ### Results  
 The OSI model:  
-The Open Systems Interconnection (OSI) model describes 7 layers that computer systems uso to communicate over a network. This is the first Model used to communicte over a network. All these layers work collaboratively to transmit the data from one person to another across the globe.
+The Open Systems Interconnection (OSI) model describes 7 layers that computer systems uso to communicate over a network.  
+This is the first Model used to communicte over a network. All these layers work collaboratively to transmit the data from one person to another across the globe.
 Modern internet is not based on OSI, but on the TCP/IP model.  
 Today the OSI model is used to help visualize and communicate how networks operate, and helps isolate and troubleshoot networking problems.  
 
