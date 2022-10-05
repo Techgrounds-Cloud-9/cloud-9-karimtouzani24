@@ -87,7 +87,7 @@ To deny webtraffic I used the commands sudo ufw deny http, and also the same com
 To check if the firewall works I opened the webbrowser to reach the webserver as in the first part of this exercise. Now it was not possible because of the firewall is doing its work.  
 
 ### Results  
-![index.html](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/index1.png)
+![index.html](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/index1.png)  
 index.html is the default webpage.  
 
 
