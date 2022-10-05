@@ -1,5 +1,6 @@
 # Subject
-Subnetting.  
+Subnetting.  In this exercise I made for each subnet a diagram. This was not asked, but because I enjoyed doing it  
+I would like to share it.
 
 ## Exercise  
 Maak een netwerkarchitectuur die voldoet aan de volgende eisen:
@@ -18,8 +19,8 @@ and 31 is the broadcast address. 32 will be the next subnet ID.
 The second exercise we need to connect to the internet, so we need a router.  
 The router uses NAT, with NAT we can use the public IP address of the router to connect to the internet.  
 We need 30 available hosts + the ip address for the NAT gateway is 31. A /27 has only 32-2 = 30 available.  
-So we need to use a /26, which has a max of 64-2 = 62 hosts. 
-these are the private IP addresses to communicate locally:
+So we need to use a /26, which has a max of 64-2 = 62 hosts. These are the private IP addresses to communicate locally.  
+
 192.168.0.0/26 is the subnet ID  
 192.168.0.1/26 for the NAT gateway  
 192.168.0.63/26 is the broadcast address
