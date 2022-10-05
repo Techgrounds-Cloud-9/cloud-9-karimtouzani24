@@ -111,7 +111,8 @@ A /29 wil provide 8-2 = 6 hosts.
 
 The diagram is shown in the results. This diagram uses the least amount of addresses but is not very elastic,  
 if the company grows it would be difficult to add hosts. 
-That is why I made a new diagram and used the same amount of hosts but here there is space to grow.  I could change /27 to /26 for more hosts.  
+That is why I made a new diagram and used the same amount of hosts but here there is space to grow.  
+For example I could change /27 to /26 for more hosts.  
 See the results.
  
 To calculate the hosts you can use https://www.subnet-calculator.com/subnet.php?net_class=C or do this manually.
