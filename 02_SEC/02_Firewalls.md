@@ -75,7 +75,15 @@ https://www.tecmint.com/setup-ufw-firewall-on-ubuntu-and-debian/
 
 https://ubiq.co/tech-blog/how-to-change-default-index-page-in-apache/  
 
-https://www.howtogeek.com/devops/how-to-find-your-apache-configuration-folder/
+https://www.howtogeek.com/devops/how-to-find-your-apache-configuration-folder/  
+
+https://www.vultr.com/docs/how-to-configure-uncomplicated-firewall-ufw-on-ubuntu-20-04/  
+
+https://www.cyberciti.biz/faq/how-to-configure-firewall-with-ufw-on-ubuntu-20-04-lts/  
+
+https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands  
+
+https://www.tecmint.com/setup-ufw-firewall-on-ubuntu-and-debian/
 
 ### Overcome challenges
 I have installed apache2. To check the default page, I have wo options. The open the index.html file in /var/www/html with the cat command.  
