@@ -11,31 +11,31 @@ Hexadecimal: base 16 (16 digits, 0-f), used for IPv6, and in most colour pickers
 
 ## Exercise  
 Decimal to Binary  
-16 = 00010000
-128 = 10000000
-228 = 11100100
-112 = 01110000
+16 = 00010000  
+128 = 10000000  
+228 = 11100100  
+112 = 01110000  
 73 = 01001001  
 
-Binary to Decimal
-10101010 = 170 
-11110000 = 240
+Binary to Decimal  
+10101010 = 170  
+11110000 = 240  
 11011011 = 219
-10100000 = 160
+10100000 = 160  
 00111010 = 58  
 
 Decimal to Hex  
-15 = F 
-37 = 25
-246 = F6
-125 = 7D
-209 = D1
+15 = F  
+37 = 25  
+246 = F6  
+125 = 7D  
+209 = D1  
 
 Hex to Decimal  
 88 = 136
-e0 = 224
+e0 = 224  
 cb = 203 
-2f = 47
+2f = 47  
 d8 = 216
 
 ### Sources
