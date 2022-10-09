@@ -82,6 +82,7 @@ https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/ru
 I created a directory called scripts1 with the mkdir command. I added this directory to the PATH variable, by using the command  
 export PATH="/script1:$PATH", To check if directory is added I used the command echo $PATH.  
 To permanently add to $PATH I added the export command to the end of the .bashrc file with the command vim ~/.bashrc.  
+To safe this changes use the following command source ~/.bashrc
 
 Next I made a .sh file called firstscript with vi.  
 With echo 'text' >> filename, the script appends text to the file. The script has no execute permission so I added this with the chmod u+x filename. To check if it works i run ./scriptname.   
