@@ -86,7 +86,19 @@ Despite the bad password, and the fact that Linux uses common hashing algorithms
 
 Between the first- and second-dollar sign is the type of encryption; between the second- and third-dollar sign is the salt, and after the third dollar sign is the hash itself.  
 
-$6$0yMGt.627fBTkpSu$aHJmxDreibVN1tl8slXplz.EYQz19hWw2ctRBYnLttbVWiOa2r1nCFl2gUdavNSO7H1YHr8O4y.S/RI905/5e1:19276:0:99999:7:::                                                       
+$6$0yMGt.627fBTkpSu$aHJmxDreibVN1tl8slXplz.EYQz19hWw2ctRBYnLttbVWiOa2r1nCFl2gUdavNSO7H1YHr8O4y.S/RI905/5e1:19276:0:99999:7:::  
+
+To understand how salting works, find a peer who has the same password in /etc/shadow, and compare hashes.
 
 
-### Results
+### Results  
+![hash cracked](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2893462184fc6f528abc076111696033feb550ab/00_includes/SEC/hash1%20cracked.png)  
+Hash cracked, because of the weak password.  
+  
+
+![hash not cracked](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2893462184fc6f528abc076111696033feb550ab/00_includes/SEC/hash2%20not%20cracked.png)  
+Hash not cracked, because of the random 16 characters.  
+  
+
+![user added with weak password](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2893462184fc6f528abc076111696033feb550ab/00_includes/SEC/hash%20salt%20ilias.png)  
+The user is added with the weak password. The salt and hash is shown.
