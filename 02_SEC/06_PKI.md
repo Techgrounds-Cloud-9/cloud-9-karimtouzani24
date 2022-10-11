@@ -84,7 +84,11 @@ https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl
 
 https://letsencrypt.org/certificates/  
 
-https://www.thesslstore.com/knowledgebase/ssl-support/explaining-the-chain-of-trust/
+https://www.thesslstore.com/knowledgebase/ssl-support/explaining-the-chain-of-trust/  
+
+https://support.moonpoint.com/os/windows/certificates/trusted_root.php  
+
+https://ubuntu.com/server/docs/security-trust-store
 
 ### Overcome challenges
 To create a self-signed certificate on the VM, we use openssl.  
@@ -96,5 +100,14 @@ To view the certification paths of known websites you can click on the lock in t
 
 For www.techgrounds.nl, the root certificate is ISRG Root X1, the intermediate certificate is R3 and the server certificate is techgrounds.nl.  
 See the results to view the root certificate, intermediate certificate and server certificate of google.com and ing.nl.  
+
+To find the root certificates on my windows machine, I used the microsoft management console, by running mmc.  
+Then click on file and select add/remove snap in, then select certificates and click on add. See results.  
+Now you can see the trusted root certificates.  
+
+In Linux you can find it at the following locations:
+
+As a single file (PEM bundle) in /etc/ssl/certs/ca-certificates.crt
+As an OpenSSL compatible certificate directory in /etc/ssl/certs
 
 ### Results
