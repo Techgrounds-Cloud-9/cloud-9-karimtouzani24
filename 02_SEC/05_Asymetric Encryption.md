@@ -1,8 +1,24 @@
 # Subject
 
 
-## Key terminology
+## Key terminology  
+The two main kinds of encryption are symmetric encryption and asymmetric encryption. Asymmetric encryption is also known as public key encryption.
+In symmetric encryption, there is only one key, and all communicating parties use the same (secret) key for both encryption and decryption.  
+In asymmetric, or public key, encryption, there are two keys: one key is used for encryption, and a different key is used for decryption.  
+The decryption key is kept private (hence the "private key" name), while the encryption key is shared publicly,  
+for anyone to use (hence the "public key" name). Asymmetric encryption is a foundational technology for TLS (often called SSL).  
 
+What is an encryption algorithm?
+An encryption algorithm is the method used to transform data into ciphertext. An algorithm will use the encryption key in order to alter the data in a predictable way, so that even though the encrypted data will appear random, it can be turned back into plaintext by using the decryption key.  
+
+Commonly used symmetric encryption algorithms include:  
+AES
+3-DES
+SNOW  
+
+Commonly used asymmetric encryption algorithms include:
+RSA
+Elliptic curve cryptography
 
 ## Exercise
 1) Generate a key pair.  
@@ -15,7 +31,11 @@ https://generate-random.org/encryption-key-generator?count=1&bytes=32&cipher=des
 
 https://www.tools4noobs.com/online_tools/encrypt/  
 
-https://www.devglan.com/online-tools/rsa-encryption-decryption
+https://www.devglan.com/online-tools/rsa-encryption-decryption  
+
+https://www.cloudflare.com/learning/ssl/what-is-encryption/  
+
+https://cryptotools.net/dhe
 
 ### Overcome challenges  
 I used the online key generator for a symmetric encryption of exercise 4 (https://generate-random.org/encryption-key-generator?count=1&bytes=32&cipher=des-cbc&string=&password=)  
@@ -31,6 +51,8 @@ using his/her private key to decrypt the text (the symmetric key of exercise 4).
 Now both persons have the symmetric key. The key is exchanged securely with the asymmetric key exchange.  
 
 You can now send messages with symmetric encryption because both persons have the key. To encrypt and decrypt we use the same key.  
-We use the online tool (https://www.tools4noobs.com/online_tools/encrypt/). Now we have done also the symmetric part of exercise 4.
+We use the online tool (https://www.tools4noobs.com/online_tools/encrypt/). Now we have done also the symmetric part of exercise 4.  
+
+
 
 ### Results
