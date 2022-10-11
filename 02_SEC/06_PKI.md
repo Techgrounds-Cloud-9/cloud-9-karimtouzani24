@@ -80,9 +80,21 @@ https://linuxconfig.org/how-to-generate-a-self-signed-ssl-certificate-on-linux
 
 https://linuxize.com/post/creating-a-self-signed-ssl-certificate/  
 
-https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-20-04
+https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-20-04  
+
+https://letsencrypt.org/certificates/  
+
+https://www.thesslstore.com/knowledgebase/ssl-support/explaining-the-chain-of-trust/
 
 ### Overcome challenges
+To create a self-signed certificate on the VM, we use openssl.  
+It is already installed on my vm, I checked the version with the command openssl version.  
 
+To create a certificate I used a command, see results.  I had to give the information asked. To view the certificate I used the cat command to view the .crt file.  
+
+To view the certification paths of known websites you can click on the lock in the webbrowser and go to details, see results.  
+
+For www.techgrounds.nl, the root certificate is ISRG Root X1, the intermediate certificate is R3 and the server certificate is techgrounds.nl.  
+See the results to view the root certificate, intermediate certificate and server certificate of google.com and ing.nl.  
 
 ### Results
