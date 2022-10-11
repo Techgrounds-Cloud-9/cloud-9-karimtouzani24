@@ -48,11 +48,42 @@ I used the other persons public key to encrypt the message (the symmetric key of
 I can now send this encrypted text (the symmetric key of exercise 4) with slack, the other person can decrypt the text with the same website  
 using his/her private key to decrypt the text (the symmetric key of exercise 4).  
 
-Now both persons have the symmetric key. The key is exchanged securely with the asymmetric key exchange.  
+Now both persons have the symmetric key. The key is exchanged securely with the asymmetric key exchange (RSA).  
 
 You can now send messages with symmetric encryption because both persons have the key. To encrypt and decrypt we use the same key.  
 We use the online tool (https://www.tools4noobs.com/online_tools/encrypt/). Now we have done also the symmetric part of exercise 4.  
 
+We used RSA for the asymmetric key exchange, but Diffie-Hellman method is another way to share a secret key. I used the online tool,  
+https://cryptotools.net/dhe, to generate the secret key, see results.
 
 
-### Results
+
+### Results  
+![generate random symmetric key](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/symmetric%20key%20gen.png)  
+Generate a random symmetric key.  
+
+
+![generate RSA key pair, public and private key, for asymmetric key exchange](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/RSA%20key%20pair.png)  
+Generate RSA key pair, public and private key, for asymmetric key exchange  
+
+
+![encrypt the key using the other persons public key](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/encrypt%20to%20manish%20asym..png)  
+Encrypt the key using the other persons public key.  
+
+![other person can decrypt the key with his/her private key](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/decrypt%20manisha%20asym.png)  
+Other person can decrypt the key with his/her private key.  
+
+
+![Now the symmetric key is shared securely with the asymmetric key exchange, RSA. We can encrypt text with the symmetric key](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/encrypt%20tool.png)  
+Now the symmetric key is shared securely with the asymmetric key exchange, RSA. We can encrypt text with the symmetric key.  
+
+
+![The other person can decrypt the text with the shared symmetric key](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/decrypt%20tool.png)  
+The other person can decrypt the text with the shared symmetric key.  
+
+
+![Instead of RSA you can also use the Diffie-Hellman key exchange, by using the other persons public key to generate a shared key](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/diffie%20hellman1.png)  
+Instead of RSA you can also use the Diffie-Hellman key exchange, by using the other persons public key to generate a shared key.  
+
+![After sharing our public keys, the online tool generates the shared key to both of us, this image shows that the keys we have are the same.](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/diffie%20hellman2.png)  
+After sharing our public keys, the online tool generates the shared key to both of us, this image shows that the keys we have are the same.
