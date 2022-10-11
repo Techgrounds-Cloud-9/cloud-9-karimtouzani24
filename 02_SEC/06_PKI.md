@@ -110,4 +110,30 @@ In Linux you can find it at the following locations:
 As a single file (PEM bundle) in /etc/ssl/certs/ca-certificates.crt
 As an OpenSSL compatible certificate directory in /etc/ssl/certs
 
-### Results
+### Results  
+![self-signed certificate is created with openssl](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/certificate1.png)  
+An example of a certificate is created with the openssl command.  
+  
+    
+![view the certificate with cat command](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/certificate2.png)  
+With cat command the certificate is shown.  
+  
+
+![certification path techgrounds](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/techgrounds%20cert.png)  
+The root, intermediate and server certificates of techgrounds.nl  
+  
+
+![certification path google](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/google%20cert.png)  
+The root, intermediate and server certificates of google.com  
+  
+
+![certification path ing](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/ing%20cert.png)  
+The certification path for ing.nl  
+  
+
+![root certificates on my windows machine](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/root%20cert%20windows.png)  
+The root certificates on my windows machine.  
+  
+
+![root certificates on the linux vm](https://raw.githubusercontent.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/main/00_includes/SEC/root%20cert%20linux.png)  
+The root certificates on the linux VM.
