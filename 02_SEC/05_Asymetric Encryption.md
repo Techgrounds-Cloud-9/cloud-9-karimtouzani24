@@ -21,6 +21,8 @@ Commonly used asymmetric encryption algorithms include:
 RSA  
 Elliptic curve cryptography  
 
+Asymmetric encryption is much slower than symmetric encryption, so the two are often used in tandem. For example, someone may encrypt a message using symmetric encryption and then send the key to decrypt the message using asymmetric encryption (which speeds up the decryption process since the key is much smaller than the entire message). 
+
 The Diffie–Hellman:  
 Algorithm is a key-exchange protocol that enables two parties communicating over public channel to establish a mutual secret without it being transmitted over the Internet. DH enables the two to use a public key to encrypt and decrypt their conversation or data using symmetric cryptography.
 
