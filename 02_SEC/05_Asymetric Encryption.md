@@ -12,13 +12,18 @@ What is an encryption algorithm?
 An encryption algorithm is the method used to transform data into ciphertext. An algorithm will use the encryption key in order to alter the data in a predictable way, so that even though the encrypted data will appear random, it can be turned back into plaintext by using the decryption key.  
 
 Commonly used symmetric encryption algorithms include:  
-AES
-3-DES
+AES  
+DES  
+3-DES  
 SNOW  
 
-Commonly used asymmetric encryption algorithms include:
-RSA
-Elliptic curve cryptography
+Commonly used asymmetric encryption algorithms include:  
+RSA  
+Elliptic curve cryptography  
+
+The Diffie–Hellman:  
+Algorithm is a key-exchange protocol that enables two parties communicating over public channel to establish a mutual secret without it being transmitted over the Internet. DH enables the two to use a public key to encrypt and decrypt their conversation or data using symmetric cryptography.
+
 
 ## Exercise
 1) Generate a key pair.  
@@ -35,7 +40,9 @@ https://www.devglan.com/online-tools/rsa-encryption-decryption
 
 https://www.cloudflare.com/learning/ssl/what-is-encryption/  
 
-https://cryptotools.net/dhe
+https://cryptotools.net/dhe  
+
+https://www.hypr.com/security-encyclopedia/diffie-hellman-algorithim
 
 ### Overcome challenges  
 I used the online key generator for a symmetric encryption of exercise 4 (https://generate-random.org/encryption-key-generator?count=1&bytes=32&cipher=des-cbc&string=&password=)  
