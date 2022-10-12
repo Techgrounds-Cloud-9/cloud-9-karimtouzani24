@@ -8,7 +8,7 @@ The identity of users is checked for providing the access to the system.
 Authentication determines whether the person is user or not.
 
 Authorization:  
-A person’s or user’s authorities are checked for accessing the resources.  
+A person’s or user’s authorities are checked for accessing the resources. Authorization is the process of giving someone the ability to access a resource.  
 
 Authentication is done before the authorization process, whereas the authorization process is done after the authentication process.
 
@@ -37,5 +37,7 @@ https://support.microsoft.com/en-us/topic/what-is-multifactor-authentication-e5e
 https://csrc.nist.gov/glossary/term/least_privilege  
 
 https://auth0.com/docs/get-started/identity-fundamentals/authentication-and-authorization  
+
+https://auth0.com/intro-to-iam/what-is-authorization/
 
 
