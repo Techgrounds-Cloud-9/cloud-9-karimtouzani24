@@ -84,7 +84,7 @@ To set a password I used the command sudo passwd username.  I used the 12345 pas
 
 Despite the bad password, and the fact that Linux uses common hashing algorithms, you won’t get a match in the Rainbow Table. This is because the password is salted.  
 
-Between the first- and second-dollar sign is the type of encryption; between the second- and third-dollar sign is the salt, and after the third dollar sign is the hash itself.  
+Between the first- and second-dollar sign is the type of encryption; between the second- and third-dollar sign is the salt, and after the third dollar sign is the hash itself. Below is the encrypted password shown. 
 
 $6$0yMGt.627fBTkpSu$aHJmxDreibVN1tl8slXplz.EYQz19hWw2ctRBYnLttbVWiOa2r1nCFl2gUdavNSO7H1YHr8O4y.S/RI905/5e1:19276:0:99999:7:::  
 
