@@ -60,7 +60,9 @@ https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command
 
 https://www.cyberciti.biz/faq/understanding-etcshadow-file/#:~:text=The%20%2Fetc%2Fshadow%20is%20a,only%20to%20the%20root%20user.  
 
-https://linuxhint.com/shadow-password-file-linux/
+https://linuxhint.com/shadow-password-file-linux/  
+
+https://www.computernetworkingnotes.com/linux-tutorials/etc-shadow-file-in-linux-explained-with-examples.html
 
 ### Overcome challenges
 The difference between hashing and encryption:  
