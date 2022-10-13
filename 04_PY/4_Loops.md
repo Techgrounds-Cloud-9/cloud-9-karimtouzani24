@@ -34,4 +34,6 @@ https://www.w3schools.com/python/python_while_loops.asp
 ### Overcome challenges
 
 
-### Results
+### Results  
+![result exercise 1](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/ed64b9020d5c02179704f8324b6c8d24a504bacf/00_includes/PY/result_loops1.png)  
+The while loop.  
