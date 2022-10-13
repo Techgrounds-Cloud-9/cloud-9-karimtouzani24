@@ -31,7 +31,23 @@ Exercise 2:
 
 - Write a custom function myfunction() that prints “Hello, world!” to the terminal. Call myfunction.  
 
-- Rewrite your function so that it takes a string as an argument. Then, it should print “Hello, <string>!”.
+- Rewrite your function so that it takes a string as an argument. Then, it should print “Hello, <string>!”.  
+
+Exercise 3:  
+
+- Create a new script.  
+
+- Copy the code below into your script.  
+
+def avg():
+    # write your code here
+ 
+x = 128
+y = 255
+z = avg(x,y)
+print ("The average of",x,"and", y, "is", z)  
+
+- Write the custom function avg() so that it returns the average of the given parameters.
 
 
 
