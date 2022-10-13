@@ -33,7 +33,7 @@ Exercise 2:
 - Make the game repeat until the user inputs 100.
 
 ### Sources
-
+https://www.w3schools.com/python/python_user_input.asp
 
 ### Overcome challenges
 
