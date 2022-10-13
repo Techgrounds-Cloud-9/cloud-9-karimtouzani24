@@ -76,3 +76,6 @@ The range starts at 0 to 9.
 ![multiply x for 50 times](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/19c9cec58347e849cf1e5e1b57df4a04d18d16fd/00_includes/PY/result_loops2b.png)  
 The value of x is multiplied for 50 times.  
 
+![result](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/af97be5cb6b6fbf03885155db860ca2fcbde9ecb/00_includes/PY/result_loops3.png)  
+
+
