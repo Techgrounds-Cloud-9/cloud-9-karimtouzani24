@@ -44,7 +44,18 @@ Exercise 2:
 
 - Add a variable x with value 5 at the top of your script.  
 
-- Using the for loop, print the value of x multiplied by the value of i, for up to 50 iterations.
+- Using the for loop, print the value of x multiplied by the value of i, for up to 50 iterations.  
+
+Exercise 3:  
+
+- Create a new script.  
+
+- Copy the array below into your script.  
+
+arr = ["Coen", "Casper", "Joshua", "Abdessamad", "Saskia"]  
+
+- Use a for loop to loop over the array. Print every name individually.
+
 
 
 ### Sources
