@@ -51,4 +51,6 @@ https://www.freecodecamp.org/news/python-print-type-of-variable-how-to-get-var-t
 ### Overcome challenges
 The type() function is a valuable built-in function of Python with which you can get the data type of a variable.
 
-### Results
+### Results  
+![result exercise 1](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/f79a3ba46276d71c7f5361bcdd2d4bd21febe15c/00_includes/PY/result_datatype1.png)  
+Result exercise 1. 
