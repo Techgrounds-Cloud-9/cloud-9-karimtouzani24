@@ -60,4 +60,8 @@ If range(10) is used, the range starts from 0 to 9.
 The while loop.  
 
 ![range 10 means from 0 to 9](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/bb3a9eba8c9afe59958e35c16cb16b79e712e7f6/00_includes/PY/result_loops2a.png)  
-The range starts at 0 to 9.
+The range starts at 0 to 9.  
+
+![multiply x for 50 times](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/19c9cec58347e849cf1e5e1b57df4a04d18d16fd/00_includes/PY/result_loops2b.png)  
+The value of x is multiplied for 50 times.  
+
