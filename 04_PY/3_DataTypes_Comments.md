@@ -46,11 +46,18 @@ Exercise 2:
 ### Sources
 https://appdividend.com/2022/03/19/how-to-check-data-type-in-python/#:~:text=To%20check%20the%20data%20type,Python%20returns%20the%20data%20type.  
 
-https://www.freecodecamp.org/news/python-print-type-of-variable-how-to-get-var-type/
+https://www.freecodecamp.org/news/python-print-type-of-variable-how-to-get-var-type/  
+
+https://www.w3schools.com/python/python_user_input.asp
 
 ### Overcome challenges
-The type() function is a valuable built-in function of Python with which you can get the data type of a variable.
+The type() function is a valuable built-in function of Python with which you can get the data type of a variable.  
+
+The input() function gives a string as output.
 
 ### Results  
 ![result exercise 1](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/f79a3ba46276d71c7f5361bcdd2d4bd21febe15c/00_includes/PY/result_datatype1.png)  
-Result exercise 1. 
+Result exercise 1.  
+  
+![result exercise 2](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/8d461884c4e2f1409706dff408155286c57413e8/00_includes/PY/result_datatype2.png)  
+The output of input() function is always a string.
