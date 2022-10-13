@@ -66,4 +66,7 @@ https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-an
 
 ### Results  
 ![result exercise 1](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/06ce60cbf52a9f00b33fd6a4edb9807638e00293/00_includes/PY/result_variables1.png)  
-Result exercise 1.
+Result exercise 1.  
+
+![result exercise 2](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4424277b0d0792e7dccb3ade800d1c4def3fb5d2/00_includes/PY/result_variables2.png)  
+Result exercise 2.
