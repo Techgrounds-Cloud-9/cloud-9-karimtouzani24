@@ -58,3 +58,6 @@ If range(10) is used, the range starts from 0 to 9.
 ### Results  
 ![result exercise 1](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/ed64b9020d5c02179704f8324b6c8d24a504bacf/00_includes/PY/result_loops1.png)  
 The while loop.  
+
+![range 10 means from 0 to 9](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/bb3a9eba8c9afe59958e35c16cb16b79e712e7f6/00_includes/PY/result_loops2a.png)  
+The range starts at 0 to 9.
