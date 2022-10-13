@@ -62,4 +62,6 @@ https://www.w3schools.com/python/python_variables.asp
 ### Overcome challenges
 
 
-### Results
+### Results  
+![result exercise 1](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/06ce60cbf52a9f00b33fd6a4edb9807638e00293/00_includes/PY/result_variables1.png)  
+Result exercise 1.
