@@ -1,6 +1,7 @@
 def avg(x,y):
     # write your code here
     z = (x + y)/2
+    return z 
  
 x = 128
 y = 255
