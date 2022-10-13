@@ -38,4 +38,6 @@ https://www.w3schools.com/python/python_user_input.asp
 ### Overcome challenges
 
 
-### Results
+### Results  
+![if and else](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/20c775c4e6acb3561e37ef9bf439e21418db7aa7/00_includes/PY/result_conditions1.png)  
+If and else.
