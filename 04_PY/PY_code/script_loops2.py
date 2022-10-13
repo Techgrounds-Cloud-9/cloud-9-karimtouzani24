@@ -1,4 +1,5 @@
-for i in range(10):
-    # do something here.
-    print(i)
+x = 5
 
+for i in range(50):
+    # do something here.
+    print(x * i)
