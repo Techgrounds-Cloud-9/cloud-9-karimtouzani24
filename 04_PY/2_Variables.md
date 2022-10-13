@@ -57,7 +57,9 @@ Exercise 3:
 
 
 ### Sources
-https://www.w3schools.com/python/python_variables.asp  
+https://www.w3schools.com/python/python_variables.asp   
+
+https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/
 
 ### Overcome challenges
 
