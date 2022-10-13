@@ -38,8 +38,15 @@ https://www.w3schools.com/python/python_user_input.asp
 https://tutorial.eyehunts.com/python/how-to-keep-asking-for-user-input-python-example-code/
 
 ### Overcome challenges
-
+break
 
 ### Results  
 ![if and else](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/20c775c4e6acb3561e37ef9bf439e21418db7aa7/00_includes/PY/result_conditions1.png)  
-If and else.
+If and else.  
+
+![exercise 2, first part](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/a9bc4a75eaa94ce43bf391f82dcdaf609cedbc28/00_includes/PY/result_conditions2a.png)  
+Different responses.  
+
+![exercise 2, last part](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/a9bc4a75eaa94ce43bf391f82dcdaf609cedbc28/00_includes/PY/result_conditions2b.png)
+Game repeates until user inputs 100.
+
