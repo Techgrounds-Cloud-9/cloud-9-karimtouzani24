@@ -59,10 +59,12 @@ Exercise 3:
 ### Sources
 https://www.w3schools.com/python/python_variables.asp   
 
-https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/
+https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/  
+
+https://tutorial.eyehunts.com/python/python-print-int-and-string-in-same-line-example-code/
 
 ### Overcome challenges
-
+To finish exercise 3, I couldn't print a string and a integer on a same line, I had to change the integer to a string with str().
 
 ### Results  
 ![result exercise 1](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/06ce60cbf52a9f00b33fd6a4edb9807638e00293/00_includes/PY/result_variables1.png)  
