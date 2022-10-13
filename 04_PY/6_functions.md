@@ -8,7 +8,12 @@ Function:
 - These brackets serve as a place to input data into a function.  
 - Functions can return data as a result.  
 
-Besides the built-in functions, you can also write custom functions, or import functions from a library or package.
+Besides the built-in functions, you can also write custom functions, or import functions from a library or package.  
+
+Arguments
+- Information can be passed into functions as arguments.  
+
+- Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
 
 
 ## Exercise  
@@ -18,11 +23,22 @@ Exercise 1:
 
 - Import the random package.  
 
-- Print 5 random integers with a value between 0 and 100.
+- Print 5 random integers with a value between 0 and 100.  
+
+Exercise 2:  
+
+- Create a new script.  
+
+- Write a custom function myfunction() that prints “Hello, world!” to the terminal. Call myfunction.  
+
+- Rewrite your function so that it takes a string as an argument. Then, it should print “Hello, <string>!”.
+
 
 
 ### Sources
+https://www.javatpoint.com/python-generate-random-number  
 
+https://www.w3schools.com/python/python_functions.asp
 
 ### Overcome challenges
 
