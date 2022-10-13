@@ -71,4 +71,7 @@ To finish exercise 3, I couldn't print a string and a integer on a same line, I 
 Result exercise 1.  
 
 ![result exercise 2](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4424277b0d0792e7dccb3ade800d1c4def3fb5d2/00_includes/PY/result_variables2.png)  
-Result exercise 2.
+Result exercise 2.  
+
+![result exercise 3](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/3204e2bc6d8f8ce67d236f05bdc58eb16e963c64/00_includes/PY/result_variables3.png)  
+Result exercise 3.
