@@ -59,4 +59,9 @@ https://www.w3schools.com/python/python_functions.asp
 ### Overcome challenges
 
 
-### Results
+### Results  
+![exercise 1](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/be6cdc2c87fc4128fd80f44471b789c66aeb4048/00_includes/PY/result_functions1.png)  
+exercise 1
+
+![exercise 2](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/be6cdc2c87fc4128fd80f44471b789c66aeb4048/00_includes/PY/result_functions2.png)  
+exercise 2
