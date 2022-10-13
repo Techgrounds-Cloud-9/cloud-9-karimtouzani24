@@ -20,7 +20,11 @@ or the number of lines in a document.
 - you can also create an infinite for loop, also press ctrl-c or cmd + c to force quit.  
 
 The range() function:  
-returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.  
+
+Arrays are used to store multiple values in one single variable:  
+an array containing car names:
+cars = ["Ford", "Volvo", "BMW"]
 
 ## Exercise  
 Exercise 1:  
@@ -61,7 +65,9 @@ arr = ["Coen", "Casper", "Joshua", "Abdessamad", "Saskia"]
 ### Sources
 https://www.w3schools.com/python/python_while_loops.asp  
 
-https://www.w3schools.com/python/python_for_loops.asp
+https://www.w3schools.com/python/python_for_loops.asp  
+
+https://www.w3schools.com/python/python_arrays.asp
 
 ### Overcome challenges
 If range(10) is used, the range starts from 0 to 9.
