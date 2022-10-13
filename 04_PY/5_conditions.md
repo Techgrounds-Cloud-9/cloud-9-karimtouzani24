@@ -38,7 +38,9 @@ https://www.w3schools.com/python/python_user_input.asp
 https://tutorial.eyehunts.com/python/how-to-keep-asking-for-user-input-python-example-code/
 
 ### Overcome challenges
-break
+break:  
+with the break statement we can stop the loop even if the while condition is true
+
 
 ### Results  
 ![if and else](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/20c775c4e6acb3561e37ef9bf439e21418db7aa7/00_includes/PY/result_conditions1.png)  
