@@ -10,7 +10,37 @@ List:
 
 for loop:  
 
-range():
+range():  
+
+list():  
+
+index(): Returns the index of the first element with the specified value
+
+insert():  Adds an element at the specified position
+
+append():  adds an element at the end of the list.
+
+.extend(): Add the elements of a list (or any iterable), to the end of the current list
+
+remove(): Removes the item with the specified value
+
+.pop(): Removes the element at the specified position
+
+del:  
+
+.clear():  removes all the elements from the list.
+
+len():  
+
+reverse(): Reverses the order of the list. 
+
+.sort(): Sorts the list
+
+.copy or list() to copy a list: returns a copy of the list.  
+
+count(): returns the number of elements with the specified value. 
+
+
 
 ## Exercise
 Exercise 1:  
