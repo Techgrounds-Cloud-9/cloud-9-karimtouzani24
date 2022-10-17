@@ -38,4 +38,6 @@ https://www.w3schools.com/python/python_lists.asp
 ### Overcome challenges
 
 
-### Results
+### Results  
+![for loop of a list](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/ab1a68313c21983cbb9a438bcb3e5ba6114fcda5/00_includes/PY/result_list1.png)  
+A for loop is used to show a list of names.  
