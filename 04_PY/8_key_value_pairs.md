@@ -27,9 +27,13 @@ Company - TechGrounds
 ### Sources
 https://www.w3schools.com/python/python_dictionaries.asp  
 
+https://www.w3schools.com/python/python_dictionaries_loop.asp  
 
 
 ### Overcome challenges
+Loop through both keys and values, by using the items() method:
 
+for x, y in thisdict.items():
+  print(x, y)
 
 ### Results
