@@ -74,4 +74,7 @@ https://www.w3schools.com/python/default.asp
 
 ### Results  
 ![for loop of a list](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/ab1a68313c21983cbb9a438bcb3e5ba6114fcda5/00_includes/PY/result_list1.png)  
-A for loop is used to show a list of names.  
+A for loop is used to show a list of names.   
+
+![for loop with addition](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/70c03643144764565f8bff30a5b4e9abb691354e/00_includes/PY/result_lists2.png)  
+Item added to the value of the next item in the list. If it is the last item, the value of the first item is added.
