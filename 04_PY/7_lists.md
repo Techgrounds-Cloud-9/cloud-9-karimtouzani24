@@ -10,7 +10,9 @@ List:
 
 for loop:  
 
-range():  
+range(): returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+
+len(): returns the number of items in an object.
 
 list():  
 
@@ -62,6 +64,8 @@ Print the value of that item added to the value of the next item in the list. If
 
 ### Sources
 https://www.w3schools.com/python/python_lists.asp  
+
+https://www.w3schools.com/python/default.asp
 
 
 
