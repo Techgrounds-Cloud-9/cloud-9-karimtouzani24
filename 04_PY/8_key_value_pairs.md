@@ -47,7 +47,14 @@ Loop through both keys and values, by using the items() method:
 for x, y in thisdict.items():
   print(x, y)
 
+The part of appending to csv file took me a bit to accomplish. After searching the internet, I found the solultion.
+
 ### Results
 ![loop dictionary and print key value pair](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/ab0bf18f784ccfa64207902a7c4a21e0f50cd47a/00_includes/PY/result_KeyPair1.png)  
 Loop dictionary and print key value pair.  
 
+![the code to append from input dictionary to csv file](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/111dd363f4c7fc5fac8a3ea9a1e53026d8b204ec/00_includes/PY/result_keyvalue2a.png)  
+The code used to append user input in a dictionary to csv file.  
+
+![the result, the input is added to the csv file.](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/111dd363f4c7fc5fac8a3ea9a1e53026d8b204ec/00_includes/PY/result_keyvalue2b.png)  
+The result, the input is added to the csv file. 
