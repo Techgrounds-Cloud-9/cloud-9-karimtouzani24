@@ -11,3 +11,6 @@ Rock Paper Scissors:
 - Finally, create a function that keeps track of the score.  
 
 - The game should be played in a predetermined number of rounds.
+
+sourches:  
+- https://thispointer.com/python-how-to-check-if-an-item-exists-in-list-search-by-value-or-condition/
