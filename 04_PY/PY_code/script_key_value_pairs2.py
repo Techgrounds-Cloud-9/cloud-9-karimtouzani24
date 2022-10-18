@@ -1,5 +1,7 @@
 import csv
-myfile = open(exercise_8.csv, 'r')
+myfile = open('exercise_8.csv', 'r+')
+print(myfile.read())
+
 employee_info = ["First name", "Last name", "Job title", "Company"]
 my_dictionary = {
     "First name": "",
@@ -15,4 +17,8 @@ my_dictionary["Company"] = input("Please enter the Company name: ")
 
 print(my_dictionary)
 
-writer = csv.writer(exercise_8.csv)
+writer = csv.writer(myfile)
+writer.writerow(my_dictionary.values())
+myfile.close()
+myfile = open('exercise_8.csv', 'r')
+print(myfile.read())

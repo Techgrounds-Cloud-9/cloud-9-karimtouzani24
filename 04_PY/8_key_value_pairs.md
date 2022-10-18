@@ -38,6 +38,8 @@ https://www.w3schools.com/python/python_dictionaries.asp
 
 https://www.w3schools.com/python/python_dictionaries_loop.asp  
 
+https://www.pythonforbeginners.com/basics/append-dictionary-to-csv-file-in-python
+
 
 ### Overcome challenges
 Loop through both keys and values, by using the items() method:
