@@ -54,7 +54,9 @@ print ("The average of",x,"and", y, "is", z)
 ### Sources
 https://www.javatpoint.com/python-generate-random-number  
 
-https://www.w3schools.com/python/python_functions.asp
+https://www.w3schools.com/python/python_functions.asp  
+
+https://www.tutorialspoint.com/generating-random-number-list-in-python
 
 ### Overcome challenges
 
