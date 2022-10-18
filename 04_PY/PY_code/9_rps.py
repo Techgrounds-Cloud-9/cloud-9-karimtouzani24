@@ -19,7 +19,7 @@ def move_computer():
     print("The computer choose:", move)
     return move
 
-move_computer()
+#move_computer()
 cp_move = move_computer()
 
 #function to check who won this round.
@@ -49,4 +49,5 @@ def winner(input_player, cp_move):
             return "It is a tie" 
 
 winner(input_player, cp_move)
+print(winner(input_player, cp_move))
 
