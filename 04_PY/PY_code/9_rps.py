@@ -14,13 +14,12 @@ print("The player choose:", input_player)
 
 #function to create a computer move.
 import random
-def move_computer():
-    move = random.choice(valid_list)
-    print("The computer choose:", move)
-    return move
+def move_computer(cp_move):
+    print("The computer choose:", cp_move)
+    return cp_move
 
-#move_computer()
-cp_move = move_computer()
+cp_move = random.choice(valid_list)
+move_computer(cp_move)
 
 #function to check who won this round.
 def winner(input_player, cp_move):
@@ -47,7 +46,9 @@ def winner(input_player, cp_move):
             return "player wins"
         elif cp_move == "scissors" or "s":
             return "It is a tie" 
-
+            
 winner(input_player, cp_move)
-print(winner(input_player, cp_move))
+
+user_wins = 0
+computer_wins = 0
 
