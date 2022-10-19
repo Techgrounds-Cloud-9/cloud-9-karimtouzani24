@@ -1,6 +1,3 @@
-from re import A
-
-
 foo = ""
 
 for i in range(3):
