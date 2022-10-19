@@ -1,12 +1,16 @@
 valid_list = ["r", "rock", "p", "paper", "s", "scissors"]
+input_player = ""
 
 #function to validate the input.
 def check_validation(input_player):
-    if input_player in valid_list:
-        print("The input is valid")
-    else:
-        print("Not a valid input")
-        return input_player
+    while True:
+        input_player = input("Please use rock, paper or scissors: ")
+        if input_player not in valid_list:
+            print("wrong input")
+            continue
+        else:
+            break
+    
 
 input_player = input("Please choose rock, paper or scissors: ")
 check_validation(input_player)
