@@ -1,0 +1,1 @@
+The bonus exercises are fixed in the PY_code directory.
