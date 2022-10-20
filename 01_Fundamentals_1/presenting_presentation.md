@@ -1,5 +1,16 @@
 Hoe bouw je een presentatie op en wat zijn goede tips?  
 
+Why Is Structuring a Presentation Important?  
+When the information is presented logically, it’s much easier for a viewer to get the message. The research supports this idea – it shows that people are 40% more likely to retain structured information than unstructured information.
+
+What is the goal of your presentation?  
+- What is the main objective of the presentation, is it to pitch investors? Get new customers? Discuss an idea with your colleagues? Never do the presentation just because “it has to be done”. Your whole pitch will be much more efficient when you know exactly why you are doing it and where you need to get your audience to.  
+
+Who is your audience?  
+- Age, profession, interests—the more you connect with your audience the more memorable will your presentation be. No matter the goal of the presentation, during your pitch, the audience is your client. And as a famous saying goes, “know your client”.  
+
+Presentation style
+There are many ways how you can style (structure) your presentation (i am going to show the standard, only mention the other types)
 
 the steps are:  
 - planning your presentation
@@ -28,15 +39,19 @@ What is the typical presentation structure?
 - conclusion
 - Thank the audience and invite questions
 
-introduction:  
+introduction: 
+The introduction sets the tone for the entire presentation and explains what the audience will come away with after viewing it. Here are the slides you may need to add in the intro: 
+- The title. Introduce the topic of your presentation and provide a brief description.  
+- A table of contents / main menu. You can make it interactive by using hyperlinks. Viewers can choose a chapter to navigate there.  
+- Objectives. State your presentation’s objectives to let your audience know what new knowledge they will acquire. 
+
 - Personal Introduction, It is best to start your presentation by briefly introducing yourself which helps to build a connection with your audience right away.
 - introduce the topic, state the purpose of the presentation and provide a brief outline of the main points you will be addressing.  
 - Mention the length, In the introduction, mention the approximate length of the talk and then also make sure you stick to it.
 - Duration, The introduction should be no longer than two slides and provide a good overview of the topic
 - briefly sum up what you are going to talk about. Introduce your general topic
-- Get to know your audience
-As mentioned earlier, it is always useful to think about who your audience actually is. Ask them questions at the beginning about how well they already know the topic of your presentation. Use SlideLizard for this so that you have a clear overview about the answers. You can use both single- and multiple-choice questions or also open questions and display their results as a WordCloud in your presentation, for example.
-- Include a quote. To make the beginning (or the end) of your presentation more exciting, it is always a good idea to include a quote. We have selected some powerful quotes for PowerPoint presentations for you.
+
+- Include a quote. To make the beginning (or the end) of your presentation more exciting, 
 - why is it useful or relevant to your audience.  
 - Provide a statement of what you're hoping the outcome of the presentation will be, for example, "I'm hoping this will be provide you with..." 
 - Starting with a strong intro can make your audience sit up in their seats and listen to you. Some ways to start your presentation include asking a thought-provoking question, listing the benefits and shocking the audience with a fact or statistic.  
@@ -61,7 +76,7 @@ The main part should make up about 70% of the presentation and also include a cl
 
 
 Images
-Visualize data and statistics and show pictures to underline facts. If you are still looking for good images, we have selected 5 sources of free images for you here.
+Visualize data and statistics and show pictures to underline facts. 
 
 
 Focus on the essentials
@@ -69,12 +84,17 @@ Focus on what is most important and summarize a bit. You don't have to say every
 
 
 Make your presentation interactive
-Make your presentation interactive to keep the attention of your audience. Use SlideLizard to include polls in your presentation, where your audience can vote directly from their smartphone and discuss the answers as soon as you received all votes. Here you can also find more tips for increasing audience engagement.
+Make your presentation interactive to keep the attention of your audience. 
 
 conclusion:  
 - sum up with key takeaways.
 - how they can put into practice what they learned.  
-- make sure you loop back to your original opening statement and give your audience actionable steps to take in order to reach the solution you have to offer them.
+- make sure you loop back to your original opening statement and give your audience actionable steps to take in order to reach the solution you have to offer them.  
+
+A good conclusion summarizes the key points you made or highlights what the audience should have learned. It clarifies the general purpose of your presentation and reinforces the reason for viewing it. Here are the slides you may want to include:
+
+Summary. List what goals your audience have achieved, what knowledge they got, and how this information can help them in the future.
+Conclusion. Here you can thank your audience for viewing the presentation.
 
 tips:  
 - No more than 10 slides in total.
@@ -135,7 +155,17 @@ https://virtualspeech.com/blog/how-to-structure-your-presentation
 
 https://slidelizard.com/en/blog/good-presentation-structure  
 
-https://www.ispringsolutions.com/blog/how-to-structure-a-powerpoint-presentation
+https://www.ispringsolutions.com/blog/how-to-structure-a-powerpoint-presentation  
+
+https://piktochart.com/blog/presentation-structure/  
+
+https://www.uwa.edu.au/students/-/media/Project/UWA/UWA/Students/Docs/STUDYSmarter/P3-Structure-your-Presentation-SG.pdf  
+
+https://extension.oregonstate.edu/sites/default/files/documents/10551/partsofapresentation.pdf  
+
+https://www.uts.edu.au/current-students/support/helps/self-help-resources/presentation-skills/structure-presentation  
+
+https://www.betterup.com/blog/how-to-give-a-good-presentation
 
 tips:  
 - Research your topic and know it inside and out.  
