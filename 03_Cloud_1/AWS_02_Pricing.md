@@ -91,9 +91,3 @@ https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRan
 https://www.geeksforgeeks.org/capex-vs-opex-in-cloud-computing/  
 
 https://aws.amazon.com/calculator/calculator-assumptions/
-
-
-### Overcome challenges
-
-
-### Results
