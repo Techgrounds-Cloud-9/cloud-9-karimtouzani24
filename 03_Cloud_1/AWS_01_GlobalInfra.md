@@ -8,6 +8,7 @@ AWS has a global infrastructure made up of the following components:
 
 - Regions  
 - Availability Zones  
+- Local zone 
 - Edge Locations  
 
 As a customer, you have different amounts of control over where your stuff is located depending on the service you use.
