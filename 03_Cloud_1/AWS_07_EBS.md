@@ -38,7 +38,9 @@ Exercise 3
 - Find your text file on the new EBS volume.
 
 ### Sources
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html  
 
+https://devopscube.com/mount-ebs-volume-ec2-instance/
 
 ### Overcome challenges
 
