@@ -54,7 +54,7 @@ Exercise 2
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html
 
 ### Overcome challenges
-launching the instance was easy. Just followed the steps to fill in the requirements. To terminate the instance I had to search how to disable the termination protection. 
+launching the instance was easy. Just followed the steps to fill in the requirements and connected with the instance connect option. To terminate the instance I had to search how to disable the termination protection. This is done withn the instance settings.
 
 ### Results  
 ![ec2 instance created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/75710020ecafe283afa203a47288555ef39b7ce4/00_includes/AWS/EC2/ec2e1a.png)  
