@@ -51,9 +51,20 @@ Exercise 2
 - Terminate your instance.
 
 ### Sources
-
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html
 
 ### Overcome challenges
+launching the instance was easy. Just followed the steps to fill in the requirements. To terminate the instance I had to search how to disable the termination protection. 
 
+### Results  
+![ec2 instance created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/75710020ecafe283afa203a47288555ef39b7ce4/00_includes/AWS/EC2/ec2e1a.png)  
+EC2 instance created and running.  
 
-### Results
+![connected to instance with instance connect](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/75710020ecafe283afa203a47288555ef39b7ce4/00_includes/AWS/EC2/ec2e1b.png)  
+Connected to the instance. Instance connect is used.  
+
+![change termination protection](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/75710020ecafe283afa203a47288555ef39b7ce4/00_includes/AWS/EC2/ec2e1c.png)  
+To terminate the instance, the termination protection option should be disabled.  
+
+![uncheck enable](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/75710020ecafe283afa203a47288555ef39b7ce4/00_includes/AWS/EC2/ec2e1d.png)  
+uncheck enable to terminate the instance.  
