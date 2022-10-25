@@ -78,4 +78,25 @@ https://aws.amazon.com/s3/storage-classes/
 ### Overcome challenges
 
 
-### Results
+### Results  
+![bucket created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2c1d567e794ece8676871c655671c454ab8707aa/00_includes/AWS/S3/s3e1.png)  
+The bucket is created in the Frankfurt region. It is not public yet.  
+
+![image uploaded](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2c1d567e794ece8676871c655671c454ab8707aa/00_includes/AWS/S3/s3e1b.png)  
+A cat image is uploaded to the bucket.  
+
+![no public acces](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2c1d567e794ece8676871c655671c454ab8707aa/00_includes/AWS/S3/s3e1c.png)  
+No public acces. Permissions need to be edited.  
+
+![edit public acces and policy generated](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2c1d567e794ece8676871c655671c454ab8707aa/00_includes/AWS/S3/s3e1d.png)  
+Block public access is turned off and a bucket policy is generated.  
+
+![publc acces bucket](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2c1d567e794ece8676871c655671c454ab8707aa/00_includes/AWS/S3/s3e1e.png)  
+The bucket is publicly accessible.  
+
+![link to publicly access file](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2c1d567e794ece8676871c655671c454ab8707aa/00_includes/AWS/S3/s3e1f.png)  
+The link to access publicly is send to a peer.  
+
+![result peer](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2c1d567e794ece8676871c655671c454ab8707aa/00_includes/AWS/S3/results3e1.png)  
+The peer is able to view the image.
+
