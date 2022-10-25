@@ -76,7 +76,9 @@ Exercise 2
 https://aws.amazon.com/s3/storage-classes/
 
 ### Overcome challenges
-To make a bucket public accessable, I changed the block public acces option to off and you need to add a bucket policy. I used the policy generator with the following options: allow, a * to allow for everyone, the getobject action and the added a /* to the end of the arn so it works for everything in the bucket.
+To make a bucket public accessable, I changed the block public acces option to off and you need to add a bucket policy. I used the policy generator with the following options: allow, a * to allow for everyone, the getobject action and the added a /* to the end of the arn so it works for everything in the bucket.  
+
+To make a static website enable it in the properties tab of the bucket.
 
 ### Results  
 exercise 1
@@ -103,5 +105,19 @@ The peer is able to view the image.
 
 
 exercise 2  
+![new bucket and files uploaded](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/aa88271987786e21b84b326ee9f35ad6b705f9da/00_includes/AWS/S3/s3e2a.png)  
+New bucket and files uploaded.  
+
+![static website hosting enabled](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/aa88271987786e21b84b326ee9f35ad6b705f9da/00_includes/AWS/S3/s3e2b.png)  
+In the bucket, go to the properties tab and enable static website hosting dwon the page. The homepage is also specified.  
+
+![static website hosting enabled and website endpoint can be used.](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/aa88271987786e21b84b326ee9f35ad6b705f9da/00_includes/AWS/S3/s3e2c.png)  
+Static website hosting enabled and website endpoint can be used.  
+
+![result](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/aa88271987786e21b84b326ee9f35ad6b705f9da/00_includes/AWS/S3/results3e2.png)  
+The website is accesible.
+
+
+
 
 
