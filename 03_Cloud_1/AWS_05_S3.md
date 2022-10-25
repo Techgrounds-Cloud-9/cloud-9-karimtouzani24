@@ -19,6 +19,23 @@ There are 4 storage classes:
 There’s also S3 Glacier Deep archive, a subclass of S3 Glacier. And Intelligent Tiering which is more a cost optimization tool than a class on its own.
 Storage classes differ in availability, durability, retrieval time, and cost.  
 
+storage classes more info:  
+- S3 standard - General Purpose (for frequent accessed data, big data analytics, mobile and gaming applications, content distribution)  
+- S3 standard-IA - Infrequent Access (data less frequent accessed but requires rapid acces, lower cost than s3 standard, used for DR and backups) 
+
+- S3 One-Zone-IA - Infrequent access (in a singel AZ, data is lost when Az is destroyed, used for secundary backups or data you can recreate)  
+
+the glacier storage classes are low cost object storage meant for archiving or backup, price for storage + object retrieval cost.  
+- S3 glacier instant retrieval, milisecond retrieval, great for data accessed once a quater.  min storage duration 90 days
+- S3 galcierf lexible retrieval, expedited (1-5min) standard (3-5 hours) bulk (5-12 hours). min storage duration 90 days  
+
+- S3 glacier deep archive, for long term storage. standard (12 hours retrieval) bulk (48 hours) min storage duration 180 days 
+
+- S3 intelligent tiering  
+small monthly monitoring and auto-tiering fee. moves objects automatically between acces tiers based on usage. there are no tetrieval charges in s3 intelligent-tiering. Frequent, Infrequent, and Archive Instant Access tiers.  
+
+Can move between classes manually or using S3 lifecycle configurations.
+
 In S3, you pay for:
 - GBs storage per month
 - Transfer OUT to out of the region
@@ -28,7 +45,10 @@ You don’t pay for:
 - Transfer IN to Amazon S3
 - Transfer OUT from S3 to CloudFront or EC2 in the same region
 
-Besides storing data for all kinds of purposes (big data, storing videos, archiving, etc.), S3 has another use case: hosting static websites.
+Besides storing data for all kinds of purposes (big data, storing videos, archiving, etc.), S3 has another use case: hosting static websites.  
+
+durability vs availability:  
+- durability is how many times a object is lost and availability is how readily available a service is. 
 
 
 ## Exercise  
@@ -53,7 +73,7 @@ Exercise 2
 
 
 ### Sources
-
+https://aws.amazon.com/s3/storage-classes/
 
 ### Overcome challenges
 
