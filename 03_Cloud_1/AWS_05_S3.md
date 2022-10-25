@@ -76,9 +76,10 @@ Exercise 2
 https://aws.amazon.com/s3/storage-classes/
 
 ### Overcome challenges
-
+To make a bucket public accessable, I changed the block public acces option to off and you need to add a bucket policy. I used the policy generator with the following options: allow, a * to allow for everyone, the getobject action and the added a /* to the end of the arn so it works for everything in the bucket.
 
 ### Results  
+exercise 1
 ![bucket created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2c1d567e794ece8676871c655671c454ab8707aa/00_includes/AWS/S3/s3e1.png)  
 The bucket is created in the Frankfurt region. It is not public yet.  
 
@@ -98,5 +99,9 @@ The bucket is publicly accessible.
 The link to access publicly is send to a peer.  
 
 ![result peer](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/2c1d567e794ece8676871c655671c454ab8707aa/00_includes/AWS/S3/results3e1.png)  
-The peer is able to view the image.
+The peer is able to view the image.  
+
+
+exercise 2  
+
 
