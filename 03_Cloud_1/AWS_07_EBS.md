@@ -18,9 +18,9 @@ Exercise 1
 - Navigate to the EC2 menu.
 - Create a t2.micro Amazon Linux 2 machine with all the default settings.
 - Create a new EBS volume with the following requirements:
-- Volume type: General Purpose SSD (gp3)
-- Size: 1 GiB
-- Availability Zone: same as your EC2
+-  Volume type: General Purpose SSD (gp3)
+-  Size: 1 GiB
+-  Availability Zone: same as your EC2
 - Wait for its state to be available.
 
 Exercise 2
