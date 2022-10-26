@@ -35,8 +35,8 @@ What is a Region?
 - Each Region is designed to be isolated from the other Regions. This achieves the greatest possible fault tolerance and stability.
 - Some AWS resources might not be available in all Regions. Ensure that you can create the resources that you need in the desired Regions before you launch an instance.
 
-What is an Edge Location?  
-- A site that CloudFront uses to cache copies of your content for faster delivery to users at any location.  
+What is an Edge Location?(points of presence)  
+  - A site that CloudFront uses to cache copies of your content for faster delivery to users at any location.  
 - Data Center used to deliver content fast to your users. It is the site that is nearest your users.  
 - The content is delivered faster because the data is no longer requested from the primary location. It is delivered from the Edge Location. The location nearest to the user.  
 

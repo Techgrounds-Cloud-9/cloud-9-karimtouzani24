@@ -77,6 +77,13 @@ The AWS Pricing Calculator is an estimation tool that provides an approximate co
 - tax not included  
 - etc  
 
+With AWS Pricing Calculator, you can do the following tasks:
+
+- View transparent prices – See the calculations behind the estimated prices for your service configurations. You can view price estimates by service or by groups of services to analyze your architecture costs.
+- Use groups for hierarchical estimates – Sort your estimates into groups to align with your architecture for clear service cost analysis.
+- Share your estimates – Save the link to each estimate to share or revisit at a later time. Estimates are saved to the AWS public servers.
+- Export your estimates – Export your estimates in CSV or PDF format to share locally with your stakeholders.
+
 https://docs.aws.amazon.com/pdfs/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf  Belangrijk document!
 
 ### Sources
