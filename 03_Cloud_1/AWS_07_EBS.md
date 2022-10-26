@@ -43,6 +43,36 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
 https://devopscube.com/mount-ebs-volume-ec2-instance/
 
 ### Overcome challenges
+It was easy to make create an EC2 instance, EBS volume, snapshot. To attach and detach the volume and to connect to the SSH. By just following the steps on the console, see results.  
+
+To only part i had to solve is how to mount a volume on the EC2 instance, I used a couple of command wich i found on the internet, see the sources and results. I did not have permissions to make a file. Only as root was allowed. So i changed to root user.  
+
+### Results  
+![instance created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/fb77c7bd713b474c21e4866268a0db8356524326/00_includes/AWS/EBS/ebs_1%20instance%20created.png)  
+Instance created with default settings.  
+
+![new EBS volume](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/fb77c7bd713b474c21e4866268a0db8356524326/00_includes/AWS/EBS/ebs_2%20new%20ebs%20available.png)  
+New EBS volume created in same Availablity zone and is available.  
+
+![attaching the volume to the instance](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/fb77c7bd713b474c21e4866268a0db8356524326/00_includes/AWS/EBS/ebs_3%20attaching%20ebs.png)  
+Attaching the volume to the EC2 instance.  
+
+![attached volume](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/fb77c7bd713b474c21e4866268a0db8356524326/00_includes/AWS/EBS/ebs_4%20attached%20ebs.png)  
+The new volume is attached.  
+
+![ssh mount and file added](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/fb77c7bd713b474c21e4866268a0db8356524326/00_includes/AWS/EBS/ebs_5%20ssh%20mount%20and%20text.png)  
+Connected with ssh, mounted the volume and added a text file.  
+
+![snapshot created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/fb77c7bd713b474c21e4866268a0db8356524326/00_includes/AWS/EBS/ebs_6%20snapshot.png)  
+Snapshot created from the original EBS and after that the text file is deleted from the original EBS.  
+
+![volume from snapshot](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/fb77c7bd713b474c21e4866268a0db8356524326/00_includes/AWS/EBS/ebs_7%20volume%20from%20snapshot.png)  
+New volume created from volume.  
+
+![detach original EBS and attach new EBS](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/fb77c7bd713b474c21e4866268a0db8356524326/00_includes/AWS/EBS/ebs_8%20detach%20and%20attach.png)  
+The original EBS is detached and the EBS from snapshot is attached.  
+
+![New EBS from snapshot mounted and file is shown](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/fb77c7bd713b474c21e4866268a0db8356524326/00_includes/AWS/EBS/ebs_9%20file%20new%20ebs.png)  
+The new EBS from snapshot is mounted and the file is shown. The file was deleted on the original EBS after the snapshot was created. So that is why the file is shown.  
 
 
-### Results
