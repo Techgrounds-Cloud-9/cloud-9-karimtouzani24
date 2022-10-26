@@ -58,6 +58,27 @@ micro = size within the instance class
 
 example t2.mmicro (is part of the aws free tier up to 750 hours per month)
 
+EC2 instance purchasing options:  
+- on demand instances. short workload, predictable pricing, pay by second after the first minute for linux or windows, other OS by the hour. Higest cost but no upfront payment. No long term commitment. recommended for short-term un-interrupted workloads where you cant predict te behaviour.  
+
+- reserved (1 or 3 years): 2 types, reserverd instances for long workloads and convertible reserved instances for long workload with flexible instance. Discount compared to on-demand. You reserve an attribute (instance type, region, tenancy, OS). payment options effect on discount, no opfront, partial upfront or all upfront. You can choose the regional or zonal scope. Recommended for database. You can buy and sell in the reserved instance marketplace. The convertible reserved instance less discount but more flexible because you can change type, OS, scope and tenancy.  
+
+- saving plans (1 or 3 years): commitment to an amount os usage, long workload.  
+Discount based on long-term usage (up to 72 procent, like RI), commit to a certain type of usage (10 dollar per hour for one year), usage beyond is billed at the on-demand price. locked to a specific instance family and region.  
+
+- spot instances: short workload, cheap, can lose instances.  
+can get a discount up to 90 procent compared to on-demand. useful for workloads that are resilient to failure (batch jobs, data analysis, image processing, workloads with a flexible start end time), not suitable for critical jobs or databases.  
+
+- dedicated hosts: book an entire physical server, control instance placement.  
+the most expensive option. useful for software that have complicated licensing model or for companies that have strong regulatory or compliance needs. Purchasing options are on demand or reserved.  
+
+- dedicated instances: run on hardware that is dedicated to you, may share hardware with other instances in same account, no control over instance placement. 
+
+- capacity reservations: reserve capacity in a specific AZ for any duration.  
+you always have acces to ec2 capacity when you need it. No time commitment (create/cancel anytime). Combine with regional reserved instances and saving plans to benifit from discounts. you are charged at on-demand rate wheter you run instances or not. suitable for shor term, uninterrupted workloads that needs to be in a specific AZ.  
+
+
+
 
 
 ## Exercise
