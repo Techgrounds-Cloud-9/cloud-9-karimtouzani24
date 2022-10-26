@@ -8,6 +8,8 @@ One Security Group can be assigned to multiple instances. The other way around, 
 
 Security Groups only have allow rules. Everything not explicitly allowed is automatically implicitly denied.  
 Rules include IP addresses and other security groups.  
+They regulate acces to ports, authorized IP ranges, control inbound (from other to the instance) and outbound network (from the instance to other)  
+it contains the type (http, ssh), protocol (tcp), port range (80), source and description. 
 
 NACL. A firewall that controls traffic to and from subnets.  
 A Network Access Control List (NACL) is a stateless firewall that runs on the subnet level in a VPC.
@@ -16,7 +18,12 @@ Rules have a number assigned to them. This number indicates the order in which t
 
 By default, a NACL is configured to allow all traffic in and out of the network.  
 
-## Key terminology
+## Key terminology  
+SG good to know:  
+- can be attached to multiple instances.  
+- if application time out then it is a SG issue and if connection refused error than its a application error.  
+- default all inbound is blocked and all outbound is authorised.
+
 difference security groups and Network ACLs:  
 
 - SG operate at instance level and the NACL at the subnet level.  
