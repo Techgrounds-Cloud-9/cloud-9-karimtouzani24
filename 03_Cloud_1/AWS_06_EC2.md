@@ -21,6 +21,43 @@ Spot instances are generally considered the cheapest, but their availability dep
 
 
 ## Key terminology
+- Amazon EC2  
+EC2 = elastic Compute Cloud = Infrastructure as a service. 
+Is a web service that provides resizable computing capacity—literally, servers in Amazon's data centers—that you use to build and host your software systems.  
+
+options:   
+OS - linux, windows or mac os.  
+CPU - how much compute power and cores  
+RAM - how much random-acces memory  
+storage - network-attached (EBS and EFS), hardware (EC2 instance store)  
+network card - speed, public IP address  
+firewall rules - security group  
+bootstrap script -  EC2 user data (configures at first launch)  
+
+EC2 user data  
+To bootstrap our instances, means launching commands when a machine starts.  
+that script is only run once at the instance first start.  
+
+EC2 user data is used to automate boot tasks such as:  
+installing updates/software or downloading common files from the internet.  
+
+EC2 user data script runs with the root user.    
+
+there different 7 types of instances. types for general purpose, compute optimized, memory optimized, accelerated computing, storage optimized, instance feature and measuring instance performance.  
+
+general purpose instance type (T or M): great for diversity of workloads such as web servers or code repositories (balance between compute memory networking)  
+
+compute optimized (C): great for compute intensive tasks for high performance processors (batch processing workloads, media transcoding, high perf. webservers and high perf. computing HPC, machine learning and dedicated gaming servers.)  
+
+memory optimized (R, X): workloads that process large data sets in memory (high perf. databases, BI, applications performing real-time processing of big unstructured data.)
+
+naming instance:  
+t = instance class  
+2 = generation  
+micro = size within the instance class
+
+example t2.mmicro (is part of the aws free tier up to 750 hours per month)
+
 
 
 ## Exercise
