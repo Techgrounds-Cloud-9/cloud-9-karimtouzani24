@@ -84,7 +84,9 @@ With AWS Pricing Calculator, you can do the following tasks:
 - Share your estimates – Save the link to each estimate to share or revisit at a later time. Estimates are saved to the AWS public servers.
 - Export your estimates – Export your estimates in CSV or PDF format to share locally with your stakeholders.
 
-https://docs.aws.amazon.com/pdfs/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf  Belangrijk document!
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf  Belangrijk document!  
+
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html
 
 ### Sources
 https://calculator.aws/#/  
