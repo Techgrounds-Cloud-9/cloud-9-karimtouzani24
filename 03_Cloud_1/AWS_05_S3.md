@@ -63,9 +63,9 @@ durability vs availability:
 you can store any type of file in S3. Files can max 5 TB. There is unlimited storage available. S3 name must be globally unique, but buckets are created in a region. Because of latency create physically closest.  
 
 features:  
-- tranfer acceleration  
+- tranfer acceleration (speeds up uploads using cloudfront)   
 - requester pays  
-- events  
+- events (can trigger notifications to sns sqs and lambda)   
 - static web hosting  
 - versioning (keeping multiple variants of an object in the same bucket, recover from accidental deletion or overwrite)  
 - replication (2 types: CRR and SRR, cross region and same region replication, buckets must have versioning enabled.)  
