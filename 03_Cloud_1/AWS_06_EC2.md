@@ -34,6 +34,8 @@ network card - speed, public IP address
 firewall rules - security group  
 bootstrap script -  EC2 user data (configures at first launch)  
 
+launching an EC2 instance - select an instance type - an AMI.
+
 EC2 user data  
 To bootstrap our instances, means launching commands when a machine starts.  
 that script is only run once at the instance first start.  
@@ -41,7 +43,9 @@ that script is only run once at the instance first start.
 EC2 user data is used to automate boot tasks such as:  
 installing updates/software or downloading common files from the internet.  
 
-EC2 user data script runs with the root user.    
+EC2 user data script runs with the root user.  
+
+EC2 metadata is data about your EC2 instance. 
 
 there different 7 types of instances. types for general purpose, compute optimized, memory optimized, accelerated computing, storage optimized, instance feature and measuring instance performance.  
 
