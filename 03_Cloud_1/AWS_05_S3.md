@@ -4,6 +4,16 @@ Simple Storage Service (S3)
 ## Key terminology
 AWS offers object based storage in the form of S3. S3 makes use of buckets as a container for objects. A single object in S3 has a maximum size of 5TB. However, the total size of a bucket is virtually unlimited.  
 
+We can connect to S3 with the browser and http protocol. An object consist of:  
+- key (name of object)  
+- version ID  
+- value (actual data)  
+- metadata  
+- subresources  
+- acces control info  
+
+You can connect an instance to S3 ,over the internet using public addresses (vpc, internet gateway) or a private addresses (private connection, S3 gateway endpoint)
+
 Bucket names must be globally unique. That is, even other AWS accounts in different regions cannot share the same bucket name. Buckets, and objects within buckets, can be accessed using a URL  
 
 The bucket policy acts as an access control list. Data can be encrypted for even further protection.  
@@ -27,7 +37,7 @@ storage classes more info:
 
 the glacier storage classes are low cost object storage meant for archiving or backup, price for storage + object retrieval cost.  
 - S3 glacier instant retrieval, milisecond retrieval, great for data accessed once a quater.  min storage duration 90 days
-- S3 galcierf lexible retrieval, expedited (1-5min) standard (3-5 hours) bulk (5-12 hours). min storage duration 90 days  
+- S3 galcierf flexible retrieval, expedited (1-5min) standard (3-5 hours) bulk (5-12 hours). min storage duration 90 days  
 
 - S3 glacier deep archive, for long term storage. standard (12 hours retrieval) bulk (48 hours) min storage duration 180 days 
 
@@ -48,7 +58,16 @@ You don’t pay for:
 Besides storing data for all kinds of purposes (big data, storing videos, archiving, etc.), S3 has another use case: hosting static websites.  
 
 durability vs availability:  
-- durability is how many times a object is lost and availability is how readily available a service is. 
+- durability is how many times a object is lost and availability is how readily available a service is.  
+
+you can store any type of file in S3. Files can max 5 TB. There is unlimited storage available. S3 name must be globally unique, but buckets are created in a region. Because of latency create physically closest.  
+
+features:  
+- tranfer acceleration  
+- requester pays  
+- events  
+- static web hosting  
+- versioning and replication
 
 
 ## Exercise  
