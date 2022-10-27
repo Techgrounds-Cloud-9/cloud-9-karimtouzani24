@@ -11,7 +11,7 @@ For security, EBS volumes can be encrypted. Volumes can be scaled up, but not do
 Any external device, including EBS, needs to be mounted if you want to use them in Linux
 
 ## Key terminology
-
+there are 3 different types of storage systems, block (EBS, harddrive, internal or network attached, Os sees volumes which can be partitioned), file(EFS, NAS, OS can mount the network share) and object storage (S3, no hierarchy of objects in the container, uses rest api) 
 
 ## Exercise
 Exercise 1
