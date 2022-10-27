@@ -67,7 +67,9 @@ features:
 - requester pays  
 - events  
 - static web hosting  
-- versioning and replication
+- versioning (keeping multiple variants of an object in the same bucket, recover from accidental deletion or overwrite)  
+- replication (2 types: CRR and SRR, cross region and same region replication, buckets must have versioning enabled.)  
+- s3 object lock(worm model, write once read many, prevent from being deleted or overwriten)
 
 
 ## Exercise  
