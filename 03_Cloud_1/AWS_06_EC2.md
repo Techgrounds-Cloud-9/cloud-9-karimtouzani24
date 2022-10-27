@@ -81,9 +81,7 @@ the most expensive option. useful for software that have complicated licensing m
 - capacity reservations: reserve capacity in a specific AZ for any duration.  
 you always have acces to ec2 capacity when you need it. No time commitment (create/cancel anytime). Combine with regional reserved instances and saving plans to benifit from discounts. you are charged at on-demand rate wheter you run instances or not. suitable for shor term, uninterrupted workloads that needs to be in a specific AZ.  
 
-
-
-
+Amazon lightsail is a simple version of EC2. Used when simple virtual server is required by a user with little or no AWS experience.
 
 ## Exercise
 Exercise 1  
