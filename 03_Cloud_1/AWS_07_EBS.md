@@ -11,7 +11,7 @@ For security, EBS volumes can be encrypted. Volumes can be scaled up, but not do
 Any external device, including EBS, needs to be mounted if you want to use them in Linux
 
 ## Key terminology
-there are 3 different types of storage systems, block (EBS, harddrive, internal or network attached, Os sees volumes which can be partitioned), file(EFS, NAS, OS can mount the network share) and object storage (S3, no hierarchy of objects in the container, uses rest api)  
+there are 3 different types of storage systems, block (EBS, harddrive, internal or network attached, Os sees volumes which can be partitioned), file(EFS only for linux instances, NAS, OS can mount the network share, it uses NFS protocol, can connect to thousands of instances, also from other vpcs) and object storage (S3, no hierarchy of objects in the container, uses rest api)  
 
 One EC2 instance can be connected to one ore more EBS volumes in the same AZ.  
 
@@ -20,7 +20,11 @@ the HDD volumes st1 and sc1 lower performance and cost.
 
 EBS volume data persists independently of the life of the instance. Root EBS are deleted on termination by default but you can turn it off, the extra non-boot volumes are not deleted by default.  
 
+Snapshots are stored on S3, snapshots are incremental. You can create an EBS volume in another AZ from a snapshot. Snapshots can also be used to create an AMI.  
 
+Amazon Data lifecycle manager (DLM) automates the creation, retention and deletion of EBS snapshots and EBS-backed AMIs.
+
+EBS volume vs instance store: Both block storage, but instance store is ephemeral, this means that data is lost when the instance is powered down.
 
 ## Exercise
 Exercise 1
