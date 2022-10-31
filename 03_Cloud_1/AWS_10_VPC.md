@@ -47,6 +47,49 @@ Exercise 1
     * CIDR: 10.0.1.0/24
     * AZ: eu-central-1a  
 
+Exercise 2
+- Create an additional public subnet without using the wizard with the following requirements:  
+    * VPC: Lab VPC
+    * Name: Public Subnet 2
+    * AZ: eu-central-1b
+    * CIDR: 10.0.2.0/24  
+
+- Create an additional private subnet without using the wizard with the following requirements:  
+    * VPC: Lab VPC
+    * Name: Private Subnet 2
+    * AZ: eu-central-1b
+    * CIDR: 10.0.3.0/24  
+
+- View the main route table for Lab VPC. It should have an entry for the NAT gateway. Rename this route table to Private Route Table.  
+- Explicitly associate the private route table with your two private subnets.  
+- View the other route table for Lab VPC. It should have an entry for the internet gateway. Rename this route table to Public Route Table.  
+- Explicitly associate the public route table to your two public subnets.  
+
+Exercise 3
+- Create a Security Group with the following requirements:  
+    * Name: Web SG  
+    * Description: Enable HTTP Access  
+    * VPC: Lab VPC  
+    * Inbound rule: allow HTTP access from anywhere  
+    * Outbound rule: Allow all traffic  
+
+Exercise 4
+- Launch an EC2 instance with the following requirements:  
+    * AMI: Amazon Linux 2  
+    * Type: t3.micro  
+    * Subnet: Public subnet 2  
+    * Auto-assign Public IP: Enable  
+    * User data:   
+- Tag:  
+    * Key: Name  
+    * Value: Web server  
+- Security Group: Web SG  
+- Key pair: no key pair  
+- Connect to your server using the public IPv4 DNS name.
+
+
+
+
 ### Sources
 https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html  
 
