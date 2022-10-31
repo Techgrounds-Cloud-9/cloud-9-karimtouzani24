@@ -28,7 +28,7 @@ Exercise 1
     * Region: Frankfurt (eu-central-1)
     * AMI: Amazon Linux 2
     * Type: t3.micro
-    * User data:
+    * User data: see google drive  
     * Security Group: Allow HTTP
 - Wait for the status checks to pass.
 - Create an AMI from your instance with the following requirements:
@@ -68,7 +68,9 @@ Exercise 4
 - Perform a load test on your server(s) using the website on your server to activate auto scaling. There might be a delay on the creation of new servers in your fleet, depending on the settings on your Auto Scaling Group.
 
 ### Sources
+https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/tkv-create-ami-from-instance.html  
 
+https://aws.amazon.com/elasticloadbalancing/?nc=sn&loc=0
 
 ### Overcome challenges
 
