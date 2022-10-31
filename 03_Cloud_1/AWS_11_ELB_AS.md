@@ -70,7 +70,9 @@ Exercise 4
 ### Sources
 https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/tkv-create-ami-from-instance.html  
 
-https://aws.amazon.com/elasticloadbalancing/?nc=sn&loc=0
+https://aws.amazon.com/elasticloadbalancing/?nc=sn&loc=0  
+
+https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html
 
 ### Overcome challenges
 
