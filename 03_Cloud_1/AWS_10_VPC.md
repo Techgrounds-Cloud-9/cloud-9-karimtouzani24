@@ -19,6 +19,23 @@ Elastic IPs are also available from the VPC menu. EIPs are public IP addresses t
 
 
 ## Exercise
+Exercise 1  
+- Allocate an Elastic IP address to your account.
+- Use the Launch VPC Wizard option to create a new VPC with the following requirements:
+    * Region: Frankfurt (eu-central-1)
+    * VPC with a public and a private subnet
+    * Name: Lab VPC
+    * CIDR: 10.0.0.0/16  
+
+- Requirements for the public subnet:
+    * Name: Public subnet 1
+    * CIDR: 10.0.0.0/24
+    * AZ: eu-central-1a  
+
+- Requirements for the private subnet:
+    * Name: Private subnet 1
+    * CIDR: 10.0.1.0/24
+    * AZ: eu-central-1a
 
 ### Sources
 
