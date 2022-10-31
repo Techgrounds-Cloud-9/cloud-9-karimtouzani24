@@ -50,7 +50,5 @@ Study The AWS Shared Responsibility Model
 ### Sources
 https://aws.amazon.com/compliance/shared-responsibility-model/
 
-### Overcome challenges
-
-
-### Results
+### Results  
+![SRM](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/b8c4d969608a6fbf7d76d196574170919db45307/00_includes/AWS/SRM/SRM.png)  
