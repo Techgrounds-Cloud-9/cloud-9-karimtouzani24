@@ -97,7 +97,10 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.htm
 
 https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html
 
-### Overcome challenges
+### Overcome challenges  
+HTTP issue solved by ..
 
+After finishing the exercise I deletede my resources. After this action I couldn't connect to new created instances. I found out that deleting the internet gateway was the issue.  
+After creating a new Internet Gateway and creating the route to the IG in the routetable solved the issue. 
 
 ### Results
