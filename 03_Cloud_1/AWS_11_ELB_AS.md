@@ -72,7 +72,11 @@ https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/tkv-crea
 
 https://aws.amazon.com/elasticloadbalancing/?nc=sn&loc=0  
 
-https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html
+https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html  
+
+https://docs.aws.amazon.com/autoscaling/ec2/userguide/get-started-with-ec2-auto-scaling.html  
+
+
 
 ### Overcome challenges
 
