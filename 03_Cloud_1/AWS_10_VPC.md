@@ -98,9 +98,53 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.htm
 https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html
 
 ### Overcome challenges  
-HTTP issue solved by ..
+At the end I could not connect to the server using the public IPv4 DNS name, after i copied the link and pasted it in the webbrowser. Then I remembered that I should add http:// in front of the link because the webbrowser is using https by default. My configuration only allows http. By adding this i was able to connect.
 
 After finishing the exercise I deletede my resources. After this action I couldn't connect to new created instances. I found out that deleting the internet gateway was the issue.  
 After creating a new Internet Gateway and creating the route to the IG in the routetable solved the issue. 
 
-### Results
+### Results  
+exercise 1:  
+
+![allocate elastic IP address](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/54f8ffa90812cf42106b7047c6f9fcdacd379f01/00_includes/AWS/VPC/VPC1_allocate%20elastic%20IP.png)  
+- To allocate an elastic IP address.  
+
+![allocated elastic IP address](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/54f8ffa90812cf42106b7047c6f9fcdacd379f01/00_includes/AWS/VPC/VPC2_elastic%20IP.png)  
+- Elastic IP address allocated.  
+
+![VPC and requirements](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/54f8ffa90812cf42106b7047c6f9fcdacd379f01/00_includes/AWS/VPC/vpc345_vpc%20and%20subnet%20created.png)  
+- VPC and requirements created.  
+
+exercise 2:  
+
+![subnets added](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/54f8ffa90812cf42106b7047c6f9fcdacd379f01/00_includes/AWS/VPC/VPC6_add%20subnets.png)  
+- Public and private subnet added.  
+
+![rename route table](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/54f8ffa90812cf42106b7047c6f9fcdacd379f01/00_includes/AWS/VPC/VPC7_rename%20private%20route%20table.png)  
+- renamed the route table.  
+
+![route table association](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/54f8ffa90812cf42106b7047c6f9fcdacd379f01/00_includes/AWS/VPC/VPC8_route%20table%20association.png)  
+- associate route table with subnets.  
+
+![renamed route table with the IG](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/54f8ffa90812cf42106b7047c6f9fcdacd379f01/00_includes/AWS/VPC/VPC9_public%20route%20IG.png)  
+- The route table with the IG is renamed to public route table.  
+
+exercise 3:  
+
+![security group created, inbound](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/54f8ffa90812cf42106b7047c6f9fcdacd379f01/00_includes/AWS/VPC/VPC10_inbound.png)  
+- Security group created with these inbound rules.  
+
+![secirity group created, outbound](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/54f8ffa90812cf42106b7047c6f9fcdacd379f01/00_includes/AWS/VPC/VPC11_outbound.png)  
+- Security group created with these outbound rules.  
+
+exercise 4:  
+
+![EC2 instance created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/54f8ffa90812cf42106b7047c6f9fcdacd379f01/00_includes/AWS/VPC/VPC12_instance%20created.png)  
+- The EC2 instance created with the requirements.  
+
+![result](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/54f8ffa90812cf42106b7047c6f9fcdacd379f01/00_includes/AWS/VPC/result%20VPC.png)  
+- Connected to the server using the public IPv4 DNS name.  
+
+
+
+
