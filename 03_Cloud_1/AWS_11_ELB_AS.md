@@ -81,4 +81,56 @@ https://docs.aws.amazon.com/autoscaling/ec2/userguide/get-started-with-ec2-auto-
 ### Overcome challenges
 
 
-### Results
+### Results  
+
+exercise 1:  
+
+![EC2 instance launched](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB1%20ec2%20created.png)  
+- EC2 instance launched and checks passed.  
+
+![create image](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB2%20step%20to%20create%20AMI.png)  
+- How to create the AMI from the instance.  
+
+![AMI created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB3%20AMI%20created.png)  
+- AMI created.  
+
+exercise 2:  
+
+![create target group](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB4%20targetgroup%20created.png)  
+- first a target group is created.  
+
+![ELB created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB5_ELB%20create.png)  
+- The application load balancer created.  
+
+![ELB active](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB6%20ELB%20active.png)  
+- The ELB is active.  
+
+![launch template created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB7%20create%20launch%20template.png)  
+- Launch template created.  
+
+![ASG created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB8%20ASG%20created.png)  
+- ASG created.  
+
+![succesfull launch 2 instances](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB9%20ASG%20succesfull%20launch%202%20ec2.png)  
+- The ASG succesfully launched 2 instances.  
+
+exercise 4:  
+
+![instances created are healthy](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB10%20healthy%20instances.png)  
+- The created instances by ASG are healthy.  
+
+![accessing server](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB11%20dns%20server.png)  
+- Accessing the server by using the link.  
+
+![accessed server](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB12%20elb%20server%20accessed.png)  
+- Accessed the server.  
+
+![load test server](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB13%20load%20test%20server.png)  
+- load test server.  
+
+![new instance created by ASG](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB14%20new%20instances%20created.png)  
+- New instance is created by ASG.  
+
+![result](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/4707ad1d13434e1fbf1b2775c26e822f62fa47fd/00_includes/AWS/ELB/ELB15%20result.png)  
+- The ASG succesfully added the instance.  
+
