@@ -18,22 +18,29 @@ AWS has them ordered as OSRPCS, but that’s a little harder to remember.
 
 ## Key terminology
 Operational excellence pillar:  
-• Support development and run workloads
-effectively
-• Gain insight into workload operations
-• Continuously improve processes and procedures to
-deliver business value  
 
-• Best practices for operational excellence:
-    - Perform operations as code
-    - Make frequent, small, reversible changes
-    - Refine operations procedures frequently
-    - Anticipate failure
+The first pillar is the Operational Excellence pillar. This pillar focuses on running and monitoring systems to deliver business value, and continually improving supporting processes and procedures.
+Key topics include managing and automating changes, responding to events, and defining standards to successfully manage daily operations.  
+
+• Support development and run workloads effectively  
+• Gain insight into workload operations  
+• Continuously improve processes and procedures to deliver business value  
+ 
+• Best practices for operational excellence:  
+    - Perform operations as code  
+    - Make frequent, small, reversible changes  
+    - Refine operations procedures frequently  
+    - Anticipate failure  
     - Learn from all operational failures  
 
-Security Pillar
+Security Pillar:  
+
+The Security pillar involves the ability to monitor and protect systems while delivering business value through risk assessments and mitigation strategies.
+Key topics include protecting the confidentiality and integrity of data, identifying and managing who can do what (or privilege management), protecting systems, and establishing controls to detect security events.  
+
 • Protect data, systems, and assets to take advantage
-of cloud technologies to improve your security
+of cloud technologies to improve your security  
+
 • Best practices for security:
     - Implement a strong identity foundation
     - Enable traceability
@@ -43,11 +50,15 @@ of cloud technologies to improve your security
     - Keep people away from data
     - Prepare for security events  
 
-Reliability Pillar
-• Ensuring a workload can perform its intended function
-correctly and consistently when it’s expected to
-• This includes the ability to operate and test the
-workload through its total lifecycle
+Reliability Pillar:  
+
+The Reliability pillar is concerned with the ability of a system to recover from infrastructure or service failures, and to dynamically acquire computing resources to meet demand and mitigate disruptions. Reliability can help you recover from failures and meet demand.  
+
+Reliability in the cloud comprises three areas: Foundations, change management, and failure management.
+
+• Ensuring a workload can perform its intended function correctly and consistently when it’s expected to
+• This includes the ability to operate and test the workload through its total lifecycle  
+
 • Best practices for reliability:
     - Automatically recover from failure
     - Test recovery procedures
@@ -55,11 +66,12 @@ workload through its total lifecycle
     - Stop guessing capacity
     - Manage change in automation  
 
-Performance Efficiency Pillar
-• The ability to use computing resources efficiently to
-meet system requirements, and to maintain that
-efficiency as demand changes and technologies
-evolve
+Performance Efficiency Pillar  
+
+The Performance Efficiency pillar refers to using computing resources efficiently while meeting system requirements. At the same time, it is important to maintain that efficiency as demand fluctuates and technologies evolve  
+
+• The ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve  
+
 • Best practices for performance efficiency:
     - Democratize advanced technologies
     - Go global in minutes
@@ -67,9 +79,12 @@ evolve
     - Experiment more often
     - Consider mechanical sympathy  
 
-Cost Optimization Pillar
-• The ability to run systems to deliver business value
-at the lowest price point
+Cost Optimization Pillar  
+
+Cost optimization refers to the ability to avoid or eliminate unneeded expenses and resources.  
+
+• The ability to run systems to deliver business value at the lowest price point  
+
 • Best practices for cost optimization:
     - Implement Cloud Financial Management
     - Adopt a consumption model
