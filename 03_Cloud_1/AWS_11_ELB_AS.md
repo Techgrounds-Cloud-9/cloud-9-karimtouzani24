@@ -9,18 +9,63 @@ To make sure all servers are the same, Auto Scaling makes use of a (custom) AMI.
 
 In a traditional architecture, a client connects to a single server with a single IP address. When dealing with a fleet of servers, this would not work. Therefore, a load balancer can be introduced as a connection endpoint for the client. The load balancer will forward the request to one of the servers in the fleet, and relay the response back to the client.
 
-AWS’ ELB is a managed service that provides load balancing to a fleet of instances. There are four types of ELBs:  
+AWS’ ELB is a managed service that provides load balancing to a fleet of instances. There are four types of ELBs, They all feature the high availability, automatic scaling, and robust security that help make your applications fault tolerant:  
 
 - Application Load Balancer: this ELB works using HTTP and HTTPS protocols (layer 7 of the OSI stack).  
 
-- Network Load Balancer: this ELB works using TCP and UDP (layer 4 of the OSI stack).  
+- Network Load Balancer: this ELB works using TCP and UDP (layer 4 of the OSI stack). Because it handles millions of requests per second while maintaining ultra-low latencies, the Network Load Balancer works well for applications that require extreme performance.  
 
 - Classic Load Balancer: this ELB is outdated and not recommended for use. AWS has (so far) never stopped supporting any services. The reason for this is that it can harm existing applications.  
 
 - Gateway Load Balancer: this ELB acts as a gateway into your network, as well as a load balancer. It will first route traffic to a (3rd party) application that checks the traffic, like an IDS/IPS or Firewall. After the packet has been inspected, the GWLB acts like a NLB routing to your application. GWLB act on layers 3 and 4 of the OSI stack.
 
 ## Key terminology
+As mentioned previously, a load balancer distributes workloads across multiple compute resources, such as virtual servers. ELB load balancers can be configured in the Amazon EC2 service area in the AWS Management Console. Alternatively, you can invoke the service through the AWS Command Line Interface (AWS CLI) or software development kits (SDKs).  
 
+Key features of ELB load balancers include:  
+
+• High availability (HA) – ELB load balancers can distribute traffic across multiple targets—including EC2 instances, containers, and IP addresses—in a single Availability Zone or multiple Availability Zones.  
+
+• Health checks – ELB load balancers can be configured to detect unhealthy targets, stop sending traffic to them, and then spread the load across the remaining healthy targets.  
+
+• Security – You can create and manage security groups that are associated with load balancers. You can also create an internal (non-internet-facing) load balancer.  
+
+• Transport Layer Security (TLS) termination  
+
+• Layer 4 or layer 7 load balancing:  
+    • You can load balance Hypertext Transfer Protocol (HTTP) and Secure HTTP (HTTPS) applications for features that are specific to layer 7. Recall that Layer 7 is the application layer in the Open Systems Interconnection (OSI) model.  
+      
+    • You can also choose to use only layer 4 load balancing for applications that rely purely on TCP. Recall that Layer 4 is the transport layer in the OSI model.  
+
+• Operational monitoring – ELB load balancers can work with Amazon CloudWatch metrics and request tracing. You can use these resources to monitor application performance in real time.  
+
+A load balancer is used for many reasons:  
+
+• To secure access to your web servers through a single exposed point of access  
+• To decouple your environment by using both public and internal load balancers  
+• To provide high availability and fault tolerance with the ability to distribute traffic across multiple Availability Zones  
+• To increase elasticity and scalability with minimal overhead  
+- The Application Load Balancer also offers deletion protection and request tracking, enhanced metrics and access logs, and targeted health checks  
+
+Application Load Balancer routes and organizes backend targets. When you configure listeners for the load balancer, you create rules to direct how requests that the load balancer receives are routed to the backend targets. To register those targets to the load balancer and to configure the health check that the load balancer uses for the targets, you create target groups. As the diagram shows, targets can also be members of multiple target groups.  
+
+Before you start using your Application Load Balancer, you must add one or more listeners.
+A listener is a process that checks for connection requests from a client to an instance by using the protocol and port that you specify.
+The listener rules that you define also determine how the load balancer routes traffic from connecting clients to one or more targets or target groups.  
+
+Amazon EC2 Auto Scaling helps you maintain application availability. It enables you to automatically add or remove Amazon Elastic Compute Cloud (Amazon EC2) instances according to conditions that you define.  
+- based on health status checks  
+- user-defined policies that are driven by cloudwatch  
+- schedules  
+- other criteria (for example programmatically)  
+- manually using set desired capacity.  
+
+scale out to meet demand and scale in to reduce cost. 
+
+To configure Amazon EC2 Auto Scaling, you must first create a launch configuration, and then create an Auto Scaling group.  
+
+Amazon EC2 Auto Scaling tracks the health state of instances and terminates instances that are marked unhealthy. In this way, you can help ensure that the instances that are part of the Auto Scaling group are all functioning properly.
+By default, Amazon EC2 Auto Scaling uses EC2 instance status checks. If an Auto Scaling group is behind a load balancer, either the load balancer's instance checks or the EC2 instance checks are used for health monitoring.
 
 ## Exercise
 Exercise 1
