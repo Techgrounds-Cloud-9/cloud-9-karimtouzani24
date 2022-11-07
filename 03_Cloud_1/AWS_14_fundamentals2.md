@@ -14,48 +14,48 @@ Trusted Advisor:
 • Advises you on Cost Optimization, Performance, Security, and Fault Tolerance  
 
 AWS config:  
-• Fully-managed service for compliance management
+• Fully-managed service for compliance management  
 • Helps with compliance auditing, security analysis, resource change tracking and troubleshooting  
 
 AWS cloud trail:  
-• CloudTrail logs API activity for auditing
-• By default, management events are logged and retained for 90 days
-• A CloudTrail Trail logs any events to S3 for indefinite retention
-• Trail can be within Region or all Regions
-• CloudWatch Events can be triggered based on API calls in CloudTrail
+• CloudTrail logs API activity for auditing  
+• By default, management events are logged and retained for 90 days  
+• A CloudTrail Trail logs any events to S3 for indefinite retention  
+• Trail can be within Region or all Regions  
+• CloudWatch Events can be triggered based on API calls in CloudTrail  
 • Events can be streamed to CloudWatch Logs  
 
 IAM:  
-• AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources
-• You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources
-• Users are individual accounts you log in with
-• Users have NO permissions by default
-• Groups are used for organizing users and applying policies
-• Policies are used for defining permissions
+• AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources  
+• You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources  
+• Users are individual accounts you log in with  
+• Users have NO permissions by default  
+• Groups are used for organizing users and applying policies  
+• Policies are used for defining permissions  
 • Roles are used for delegating permissions and are assumed by services  
-• Users log in to the AWS Management Console with a username and password
-• Access keys are used for CLI/API access (programmatic)
-• Access keys consist of an access key ID and secret access key
-• The root user is the user that created the account
-• Root users have full permissions and cannot be restricted
+• Users log in to the AWS Management Console with a username and password  
+• Access keys are used for CLI/API access (programmatic)  
+• Access keys consist of an access key ID and secret access key  
+• The root user is the user that created the account  
+• Root users have full permissions and cannot be restricted  
 • Multi-factor authentication (MFA)uses a second factor in addition to a password – typically a code generated on a device  
 
 IAM Best Practices:
-• Lock away your AWS account root user access keys
-• Create individual IAM users
-• Use groups to assign permissions to IAM users
-• Grant least privilege
-• Get started using permissions with AWS managed policies
-• Use customer managed policies instead of inline policies
-• Use access levels to review IAM permissions
-• Configure a strong password policy for your users
+• Lock away your AWS account root user access keys  
+• Create individual IAM users  
+• Use groups to assign permissions to IAM users  
+• Grant least privilege  
+• Get started using permissions with AWS managed policies  
+• Use customer managed policies instead of inline policies  
+• Use access levels to review IAM permissions  
+• Configure a strong password policy for your users  
 • Enable MFA  
-• Use roles for applications that run on Amazon EC2 instances
-• Use roles to delegate permissions
-• Do not share access keys
-• Rotate credentials regularly
-• Remove unnecessary credentials
-• Use policy conditions for extra security
+• Use roles for applications that run on Amazon EC2 instances  
+• Use roles to delegate permissions  
+• Do not share access keys  
+• Rotate credentials regularly  
+• Remove unnecessary credentials  
+• Use policy conditions for extra security  
 • Monitor activity in your AWS account  
 
 AWS Cloudwatch:  
