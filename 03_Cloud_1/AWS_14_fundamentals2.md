@@ -1,10 +1,10 @@
 ECS:  
-• ECS is used for running Docker containers in the cloud
-• ECS containers are known as tasks
-• EC2 launch type:
-    - You managed EC2 instances which are the hosts for running the tasks
-• Fargate launch type:
-    - AWS manage the underlying compute, cluster, and scaling
+• ECS is used for running Docker containers in the cloud  
+• ECS containers are known as tasks  
+• EC2 launch type:  
+    - You managed EC2 instances which are the hosts for running the tasks  
+• Fargate launch type:  
+    - AWS manage the underlying compute, cluster, and scaling  
 • Amazon Elastic Container Registry (ECR) is a private container image registry  
 
 AWS support plans:  
