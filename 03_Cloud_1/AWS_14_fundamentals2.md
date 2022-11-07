@@ -9,8 +9,8 @@ ECS:
 
 AWS support plans:  
 Trusted Advisor:  
-• Online resource that helps to reduce cost, increase performance and improve security by optimizing your AWS environment
-• Provides real time guidance to help you provision your resources following best practices
+• Online resource that helps to reduce cost, increase performance and improve security by optimizing your AWS environment  
+• Provides real time guidance to help you provision your resources following best practices  
 • Advises you on Cost Optimization, Performance, Security, and Fault Tolerance  
 
 AWS config:  
