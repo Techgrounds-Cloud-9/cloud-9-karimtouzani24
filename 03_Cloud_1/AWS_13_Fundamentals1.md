@@ -53,4 +53,27 @@ RDS:
 Aurora:  
 • Amazon Aurora is an AWS database offering in the RDS family
 • Amazon Aurora is a MySQL and PostgreSQLcompatible relational database built for the cloud
-• Amazon Aurora features a distributed, fault-tolerant, selfhealing storage system that auto-scales up to 128TB per database instance
+• Amazon Aurora features a distributed, fault-tolerant, selfhealing storage system that auto-scales up to 128TB per database instance  
+
+Practical exercise:  
+
+EFS  
+
+Exercise:  
+Create an Amazon EFS file system, launch a Linux virtual machine on Amazon EC2, mount the file system, create a file, terminate the instance, and delete the file system.  
+
+To create a file system, just go to the EFS page and click on create file system. I created a new security group allowing ssh and nfs. EFS only works on linux,  
+so i created two linux instances in different AZ. I connected to the instances and mounted the filesystems, first i had to install the amazon-efs-utils package, then made a efs directory  
+then mounted the efs file (if you click on attach you can see which code to use). Then created a file in one instance to see if it is shared with the instance in the other AZ.  
+
+
+
+Source:  
+https://aws.amazon.com/getting-started/tutorials/create-network-file-system/  
+
+https://docs.aws.amazon.com/efs/latest/ug/mounting-fs-mount-helper-ec2-linux.html
+
+https://www.youtube.com/watch?v=Aux37Nwe5nc  
+
+https://www.youtube.com/watch?v=4jy2FILK5R8
+
