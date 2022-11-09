@@ -64,7 +64,25 @@ Create an Amazon EFS file system, launch a Linux virtual machine on Amazon EC2, 
 
 To create a file system, just go to the EFS page and click on create file system. I created a new security group allowing ssh and nfs. EFS only works on linux,  
 so i created two linux instances in different AZ. I connected to the instances and mounted the filesystems, first i had to install the amazon-efs-utils package, then made a efs directory  
-then mounted the efs file (if you click on attach you can see which code to use). Then created a file in one instance to see if it is shared with the instance in the other AZ.  
+then mounted the efs file (if you click on attach you can see which code to use). Then created a file in the efs directory in one instance to see if it is shared with the instance in the other AZ.  
+
+Result:  
+![efs created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/418480e35ed4bcc6637cd378f7c141f5550e8371/00_includes/AWS/EFS/efs1.png)  
+- EFS created  
+
+![EC2 instances created](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/418480e35ed4bcc6637cd378f7c141f5550e8371/00_includes/AWS/EFS/efs2%20instance%20created%20zones.png)  
+- 2 EC2 instances created in different AZ.  
+
+![connected to EC2](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/418480e35ed4bcc6637cd378f7c141f5550e8371/00_includes/AWS/EFS/efs3%20ec2%20connected.png)  
+- conncected to the instances.  
+
+![install amazon-efs-utils](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/418480e35ed4bcc6637cd378f7c141f5550e8371/00_includes/AWS/EFS/efs4%20ec2%20install%20efs%20utils.png)  
+- To mount EFS on the instance first you have to install amazon-efs-utils package.  
+
+![result](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/418480e35ed4bcc6637cd378f7c141f5550e8371/00_includes/AWS/EFS/efs5%20result.png)  
+- An EFS directory is created and the EFS is mounted to the directory. In the directory a file is created. This file is shared with the other instnace in the other AZ.
+
+
 
 
 
