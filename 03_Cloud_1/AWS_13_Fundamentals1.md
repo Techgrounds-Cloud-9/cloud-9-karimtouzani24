@@ -80,10 +80,7 @@ Result:
 - To mount EFS on the instance first you have to install amazon-efs-utils package.  
 
 ![result](https://github.com/Techgrounds-Cloud-9/cloud-9-karimtouzani24/blob/418480e35ed4bcc6637cd378f7c141f5550e8371/00_includes/AWS/EFS/efs5%20result.png)  
-- An EFS directory is created and the EFS is mounted to the directory. In the directory a file is created. This file is shared with the other instance in the other AZ.
-
-
-
+- An EFS directory is created and the EFS is mounted to the directory. In the directory a file is created. This file is shared with the other instance in the other AZ.  
 
 
 Source:  
@@ -93,5 +90,7 @@ https://docs.aws.amazon.com/efs/latest/ug/mounting-fs-mount-helper-ec2-linux.htm
 
 https://www.youtube.com/watch?v=Aux37Nwe5nc  
 
-https://www.youtube.com/watch?v=4jy2FILK5R8
+https://www.youtube.com/watch?v=4jy2FILK5R8  
+
+RDS
 
