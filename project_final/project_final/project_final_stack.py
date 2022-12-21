@@ -65,5 +65,45 @@ class ProjectFinalStack(Stack):
         ########## Creating NACL for the mngmt servers #########################################################
 
         ########## Creating Security Group for the web servers #################################################
-        
+        Web_SG= ec2.SecurityGroup(self, "Web_SG",
+            vpc= Web_vpc,
+            security_group_name= "SG_web",
+            allow_all_outbound= True,
+            description= "Webserver Security Group")
+
+        Web_SG.add_ingress_rule(
+            peer= ec2.Peer.any_ipv4(),
+            connection= ec2.Port.tcp(22),
+            description= "allow SSH webserver"
+        )
+
+        Web_SG.add_ingress_rule(
+            peer= ec2.Peer.any_ipv4(),
+            connection= ec2.Port.tcp(80),
+            description= "allow HTTP webserver"
+        )
+
+        Web_SG.add_ingress_rule(
+            peer= ec2.Peer.any_ipv4(),
+            connection= ec2.Port.tcp(443),
+            description= "allow HTTPS webserver"
+        )
         ########## Creating Security Group for the mngmt servers ###############################################
+        Mngmt_SG= ec2.SecurityGroup(self, "Mngmt_SG",
+            vpc= Mngmt_vpc,
+            security_group_name= "SG_Mngmt",
+            allow_all_outbound= True,
+            description= "Mngmt server Security Group"
+        )
+
+        Mngmt_SG.add_ingress_rule(
+            peer= ec2.Peer.any_ipv4(),
+            connection= ec2.Port.tcp(22),
+            description= "allow SSH Mngmt server"
+        )
+
+        Mngmt_SG.add_ingress_rule(
+            peer= ec2.Peer.any_ipv4(),
+            connection= ec2.Port.tcp(3389),
+            description= "allow RDP Mngmt server"
+        )
