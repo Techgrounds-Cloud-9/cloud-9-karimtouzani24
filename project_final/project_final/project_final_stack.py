@@ -121,7 +121,7 @@ class ProjectFinalStack(Stack):
             auto_delete_objects= True)
 
         Ud_upload_s3= s3deploy.BucketDeployment(self, "deployS3",
-            )
+            sources= [s3deploy.Source.asset("./")])
 
         ########## test instance ###############################################################################
         web_AMI = ec2.MachineImage.latest_amazon_linux(
