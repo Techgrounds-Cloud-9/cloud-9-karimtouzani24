@@ -3,6 +3,8 @@ from aws_cdk import (
     # Duration,
     Stack,
     aws_ec2 as ec2,
+    aws_s3 as s3,
+    aws_s3_deployment as s3deploy,
     
 )
 from constructs import Construct
@@ -109,6 +111,17 @@ class ProjectFinalStack(Stack):
             connection= ec2.Port.tcp(3389),
             description= "allow RDP Mngmt server"
         )
+
+        ########## test S3 bucket###############################################################################
+        Ud_bucket= s3.Bucket(self, "ud_bucket",
+            bucket_name= "ud_bucket_project",
+            # encryption=,
+            versioned= True,
+            removal_policy= cdk.RemovalPolicy.DESTROY,
+            auto_delete_objects= True)
+
+        Ud_upload_s3= s3deploy.BucketDeployment(self, "deployS3",
+            )
 
         ########## test instance ###############################################################################
         web_AMI = ec2.MachineImage.latest_amazon_linux(
