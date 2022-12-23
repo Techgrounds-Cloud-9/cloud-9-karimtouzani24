@@ -1,3 +1,4 @@
+import aws_cdk as cdk
 from aws_cdk import (
     # Duration,
     Stack,
@@ -10,6 +11,7 @@ Webserver_Vpc_AvailabilityZones = ["eu-central-1a", "eu-central-1b"]
 Webserver_Vpc_Ipaddresses = "10.10.10.0/24"
 Webserver_Vpc_Subnet_name = "Public"
 Webserver_Vpc_Subnet_mask = 25
+
 
 Mngmt_Vpc_AvailabilityZones = ["eu-central-1a", "eu-central-1b"] 
 Mngmt_Vpc_Ipaddresses = "10.20.20.0/24"
@@ -107,3 +109,26 @@ class ProjectFinalStack(Stack):
             connection= ec2.Port.tcp(3389),
             description= "allow RDP Mngmt server"
         )
+
+        ########## test instance ###############################################################################
+        web_AMI = ec2.MachineImage.latest_amazon_linux(
+            cpu_type= ec2.AmazonLinuxCpuType.X86_64,
+            edition= ec2.AmazonLinuxEdition.STANDARD,
+            generation= ec2.AmazonLinuxGeneration.AMAZON_LINUX_2,
+            storage= ec2.AmazonLinuxStorage.GENERAL_PURPOSE,
+            # user_data= ec2.UserData
+            )
+        
+        # web_userdata = ec2.UserData.for_linux()
+        # web_userdata.add_execute_file_command(file_path= r".\userdata.sh")
+        
+        web_instance = ec2.Instance(self, "web_instance_test",
+            instance_type= ec2.InstanceType.of(ec2.InstanceClass.T2, ec2.InstanceSize.MICRO),
+            vpc= Web_vpc,
+            availability_zone= Webserver_Vpc_AvailabilityZones[1],
+            instance_name= "Testing web instance",
+            machine_image= web_AMI,
+            key_name= "Karim_KP",
+            security_group= Web_SG,
+        #     # user_data= web_userdata,
+            )
