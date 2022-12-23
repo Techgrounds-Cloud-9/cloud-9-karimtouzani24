@@ -5,7 +5,7 @@ from aws_cdk import (
     aws_ec2 as ec2,
     aws_s3 as s3,
     aws_s3_deployment as s3deploy,
-    
+    aws_iam as iam,
 )
 from constructs import Construct
 
@@ -113,15 +113,28 @@ class ProjectFinalStack(Stack):
         )
 
         ########## test S3 bucket###############################################################################
-        Ud_bucket= s3.Bucket(self, "ud_bucket",
-            bucket_name= "ud_bucket_project",
+        Ud_bucket= s3.Bucket(self, "ud_bucket", #S3 bucket created
+            bucket_name= "ud-bucket-project",
             # encryption=,
             versioned= True,
             removal_policy= cdk.RemovalPolicy.DESTROY,
             auto_delete_objects= True)
 
-        Ud_upload_s3= s3deploy.BucketDeployment(self, "deployS3",
-            sources= [s3deploy.Source.asset("./")])
+        Ud_upload_s3= s3deploy.BucketDeployment(self, "deployS3", #the userdata file is uploaded in the S3 bucket.
+            sources= [s3deploy.Source.asset("./asset_folder")],
+            destination_bucket= Ud_bucket)
+
+        Ud_webserver= ec2.UserData.for_linux()
+        Ud_webserver.add_s3_download_command(
+            bucket= Ud_bucket,
+            bucket_key= "userdata.sh") #the userdata is downloaded to the instance
+        Ud_webserver.add_execute_file_command(file_path= r"./userdata.sh") # not working!
+
+        role_test= iam.Role(self, "role_test",
+                assumed_by=iam.ServicePrincipal("ec2.amazonaws.com"),
+                description= "test webserver role",)
+        
+        Ud_bucket.grant_read_write(role_test)
 
         ########## test instance ###############################################################################
         web_AMI = ec2.MachineImage.latest_amazon_linux(
@@ -129,11 +142,7 @@ class ProjectFinalStack(Stack):
             edition= ec2.AmazonLinuxEdition.STANDARD,
             generation= ec2.AmazonLinuxGeneration.AMAZON_LINUX_2,
             storage= ec2.AmazonLinuxStorage.GENERAL_PURPOSE,
-            # user_data= ec2.UserData
             )
-        
-        # web_userdata = ec2.UserData.for_linux()
-        # web_userdata.add_execute_file_command(file_path= r".\userdata.sh")
         
         web_instance = ec2.Instance(self, "web_instance_test",
             instance_type= ec2.InstanceType.of(ec2.InstanceClass.T2, ec2.InstanceSize.MICRO),
@@ -143,5 +152,9 @@ class ProjectFinalStack(Stack):
             machine_image= web_AMI,
             key_name= "Karim_KP",
             security_group= Web_SG,
-        #     # user_data= web_userdata,
-            )
+            user_data= Ud_webserver,
+            role= role_test
+            # block_devices=)     
+        )
+        
+        
